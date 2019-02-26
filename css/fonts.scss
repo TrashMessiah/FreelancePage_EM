@@ -1,22 +1,18 @@
 @font-face {
-  font-family: "Futura-LightOblique";
-  src: url("../font/7b2e53745f6918756f98da4091dc3257.eot"); 
-  src: url("../font/7b2e53745f6918756f98da4091dc3257.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../font/7b2e53745f6918756f98da4091dc3257.woff2") format("woff2"), /* chrome、firefox */
-  url("../font/7b2e53745f6918756f98da4091dc3257.woff") format("woff"), /* chrome、firefox */
-  url("../font/7b2e53745f6918756f98da4091dc3257.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../font/7b2e53745f6918756f98da4091dc3257.svg#Futura-LightOblique") format("svg"); /* iOS 4.1- */
+    font-family: "Futura-LightOblique";
+    src: url("../font/7b2e53745f6918756f98da4091dc3257.eot");
+    src: url("../font/7b2e53745f6918756f98da4091dc3257.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../font/7b2e53745f6918756f98da4091dc3257.woff2") format("woff2"), /* chrome、firefox */
+    url("../font/7b2e53745f6918756f98da4091dc3257.woff") format("woff"), /* chrome、firefox */
+    url("../font/7b2e53745f6918756f98da4091dc3257.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../font/7b2e53745f6918756f98da4091dc3257.svg#Futura-LightOblique") format("svg");
+    /* iOS 4.1- */
 }
 
-  @font-face {
+@font-face {
     font-family: 'bonvenocflight';
     src: url('../font/BonvenoCF-Light-webfont.eot');
-    src: url('../font/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/BonvenoCF-Light-webfont.woff2') format('woff2'),
-         url('../font/BonvenoCF-Light-webfont.woff') format('woff'),
-         url('../font/BonvenoCF-Light-webfont.ttf') format('truetype'),
-         url('../font/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    src: url('../font/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'), url('../font/BonvenoCF-Light-webfont.woff2') format('woff2'), url('../font/BonvenoCF-Light-webfont.woff') format('woff'), url('../font/BonvenoCF-Light-webfont.ttf') format('truetype'), url('../font/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }

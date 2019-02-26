@@ -19,18 +19,12 @@
   font-family: "Futura-LightOblique";
 }
 
-#Home {
-  background: #fff;
-}
-
-#Gestalt {
-  background: #D5E1DF;
-}
-
+#Home,
 #Cennik {
   background: #fff;
 }
 
+#Gestalt,
 #Kontakt {
   background: #D5E1DF;
 }
@@ -46,11 +40,11 @@ nav {
   height: 90px;
   position: fixed;
   z-index: 1;
-  background-color: #c4c4c4;
+  background-color: #D5E1DF;
   opacity: 0.6;
 }
 
-ul {
+nav > ul {
   float: right;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -59,25 +53,29 @@ ul {
   list-style: none;
 }
 
-ul li {
+nav > ul li {
   float: left;
   margin-top: 30px;
   margin-right: 65px;
 }
 
-ul li a {
+nav > ul li a {
   color: #000000;
   font-size: 20px;
   text-decoration: none;
   font-weight: bold;
 }
 
-ul li a:hover {
+nav > ul li a:hover {
   text-decoration: underline;
 }
 
 #info-homepage {
   margin-top: 230px;
+}
+
+#info-contact {
+  margin-top: 200px;
 }
 
 #home-name {
@@ -94,21 +92,6 @@ ul li a:hover {
   text-align: left;
 }
 
-#home-text {
-  font-size: 16px;
-  color: #6e6e6e;
-  margin: 100px 150px 0 150px;
-  text-align: left;
-  line-height: 30px;
-}
-
-.photo {
-  width: 50%;
-  height: 900px;
-  float: left;
-  background-repeat: no-repeat;
-}
-
 #photo-homepage {
   background-image: url(../img/photo.jpg);
   margin-top: 90px;
@@ -116,16 +99,6 @@ ul li a:hover {
 
 #photo-contact {
   background-image: url(../img/przechwytywanie.jpg);
-}
-
-.info {
-  width: 50%;
-  float: right;
-  text-align: justify;
-}
-
-#info-contact {
-  margin-top: 200px;
 }
 
 #contact_me {
@@ -137,21 +110,37 @@ ul li a:hover {
 #info-text {
   margin: 40px 150px 0 150px;
   font-size: 16px;
+  color: #6e6e6e;
   text-align: left;
   line-height: 30px;
 }
 
-#info-adress {
-  margin: 40px 150px 0 150px;
-  color: #3e4241;
+#home-text {
   font-size: 16px;
+  color: #6e6e6e;
+  margin: 100px 150px 0 150px;
   text-align: left;
+  line-height: 30px;
 }
 
+#info-adress,
 #info-phone {
   margin: 40px 150px 0 150px;
   color: #3e4241;
   font-size: 16px;
   text-align: left;
+}
+
+.info {
+  width: 50%;
+  float: right;
+  text-align: justify;
+}
+
+.photo {
+  width: 50%;
+  height: 900px;
+  float: left;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=main.css.map */
