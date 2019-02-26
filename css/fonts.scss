@@ -1,0 +1,21 @@
+@font-face { font-family:"Futura-Light";
+    src: url("../font/2167e76f00e569cc11b3665679996380.eot"); /* IE9*/
+    src: url("../font/2167e76f00e569cc11b3665679996380.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../font/2167e76f00e569cc11b3665679996380.woff2") format("woff2"), /* chrome、firefox */
+    url("../font/2167e76f00e569cc11b3665679996380.woff") format("woff"), /* chrome、firefox */
+    url("../font/2167e76f00e569cc11b3665679996380.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../font/2167e76f00e569cc11b3665679996380.svg#Futura-Light") format("svg"); /* iOS 4.1- */
+  }
+
+  @font-face {
+    font-family: 'bonvenocflight';
+    src: url('../font/BonvenoCF-Light-webfont.eot');
+    src: url('../font/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/BonvenoCF-Light-webfont.woff2') format('woff2'),
+         url('../font/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('../font/BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('../font/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
