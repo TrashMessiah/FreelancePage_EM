@@ -5,16 +5,26 @@ $font-family:"Futura-LightOblique";
     margin: 0;
     padding: 0;
     font-family: $font-family;
+    a{
+        text-decoration: none;
+    }
+    
 }
 
+#nav{
+    height: 90px; 
+}
 #Home,
+#Kontakt,
 #Cennik {
     background: $primary-color-background;
 }
 
-#Gestalt,
-#Kontakt {
+#Gestalt,#Offer {
     background: $secondary-color-background;
+}
+#Gestalt, #Cennik{
+    display: none;
 }
 
 section {
@@ -45,7 +55,6 @@ nav>ul {
         a {
             color: $color-text-navbar;
             font-size: 20px;
-            text-decoration: none;
             font-weight: bold;
         }
         a:hover {
@@ -78,13 +87,11 @@ nav>ul {
 }
 
 #photo-homepage {
-    background-image: url(../img/photo.jpg);
-    margin-top: 90px;
+    background-image: url(../img/home-picture.jpg);
 }
 
 #photo-contact {
     background-image: url(../img/contact-bacground.jpg);
-    
     max-height: 100%;
 }
 
@@ -92,6 +99,7 @@ nav>ul {
     margin-left: 150px;
     font-size: 24px;
     text-align: left;
+    color: $secondary-color-fonts;
 }
 
 #info-text {
@@ -128,6 +136,7 @@ nav>ul {
     width: 50%;
     height: 900px;
     float: left;
+    background-size: 800px;
     background-repeat: no-repeat;
 }
 #main-footer {
@@ -165,14 +174,44 @@ nav>ul {
 #Read_more{
     margin-left: 150px;
     margin-top: 30px;
-    background-color: $secondary-color-background;
+    background-color: darken($secondary-color-background,18%);
     height: 43px;
     width: 195px;
     color: $primary-color-fonts;
 }
 #buttons{
     padding: 10px 0 0 60px;
-    text-decoration: none;
-    
-    
+}
+
+#lines{
+    width: 50px;
+    height: 18px;
+    padding-right: 15px;
+}
+
+#photo-gestalt{
+    background-image: url(../img/gestalt-photo1.jpg);
+}
+#photo-cennik{
+    background-image: url(../img/gestalt-photo2.jpg);
+    float: right;
+}
+.gestalt-name{
+    font-size: 22px;
+    padding-top: 100px;
+}
+#info-gestalt p{
+    margin: 0 150px 0 150px;
+    line-height: 30px;
+}
+#info-cennik{
+    float: left;
+}
+#cennik-name{
+    font-size: 22px;
+    margin-top: 150px;
+}
+#info-cennik p{
+    padding: 20px 150px 0 150px;
+    line-height: 30px;
 }

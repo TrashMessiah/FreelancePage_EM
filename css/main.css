@@ -19,14 +19,26 @@
   font-family: "Futura-LightOblique";
 }
 
+* a {
+  text-decoration: none;
+}
+
+#nav {
+  height: 90px;
+}
+
 #Home,
+#Kontakt,
 #Cennik {
   background: #fff;
 }
 
-#Gestalt,
-#Kontakt {
+#Gestalt, #Offer {
   background: #D5E1DF;
+}
+
+#Gestalt, #Cennik {
+  display: none;
 }
 
 section {
@@ -62,7 +74,6 @@ nav > ul li {
 nav > ul li a {
   color: #000000;
   font-size: 20px;
-  text-decoration: none;
   font-weight: bold;
 }
 
@@ -93,8 +104,7 @@ nav > ul li a:hover {
 }
 
 #photo-homepage {
-  background-image: url(../img/photo.jpg);
-  margin-top: 90px;
+  background-image: url(../img/home-picture.jpg);
 }
 
 #photo-contact {
@@ -106,6 +116,7 @@ nav > ul li a:hover {
   margin-left: 150px;
   font-size: 24px;
   text-align: left;
+  color: #6e6e6e;
 }
 
 #info-text {
@@ -142,6 +153,7 @@ nav > ul li a:hover {
   width: 50%;
   height: 900px;
   float: left;
+  background-size: 800px;
   background-repeat: no-repeat;
 }
 
@@ -180,7 +192,7 @@ nav > ul li a:hover {
 #Read_more {
   margin-left: 150px;
   margin-top: 30px;
-  background-color: #D5E1DF;
+  background-color: #9fbbb6;
   height: 43px;
   width: 195px;
   color: #3e4241;
@@ -188,6 +200,44 @@ nav > ul li a:hover {
 
 #buttons {
   padding: 10px 0 0 60px;
-  text-decoration: none;
+}
+
+#lines {
+  width: 50px;
+  height: 18px;
+  padding-right: 15px;
+}
+
+#photo-gestalt {
+  background-image: url(../img/gestalt-photo1.jpg);
+}
+
+#photo-cennik {
+  background-image: url(../img/gestalt-photo2.jpg);
+  float: right;
+}
+
+.gestalt-name {
+  font-size: 22px;
+  padding-top: 100px;
+}
+
+#info-gestalt p {
+  margin: 0 150px 0 150px;
+  line-height: 30px;
+}
+
+#info-cennik {
+  float: left;
+}
+
+#cennik-name {
+  font-size: 22px;
+  margin-top: 150px;
+}
+
+#info-cennik p {
+  padding: 20px 150px 0 150px;
+  line-height: 30px;
 }
 /*# sourceMappingURL=main.css.map */
