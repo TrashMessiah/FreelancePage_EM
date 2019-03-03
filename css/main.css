@@ -98,7 +98,8 @@ nav > ul li a:hover {
 }
 
 #photo-contact {
-  background-image: url(../img/przechwytywanie.jpg);
+  background-image: url(../img/contact-bacground.jpg);
+  max-height: 100%;
 }
 
 #contact_me {
@@ -142,5 +143,51 @@ nav > ul li a:hover {
   height: 900px;
   float: left;
   background-repeat: no-repeat;
+}
+
+#main-footer {
+  text-align: center;
+  margin-top: 900px;
+  background-color: #424746;
+  color: #fff;
+  height: 35px;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+#services1, #services2 {
+  color: #3e4241;
+  text-align: left;
+  width: 50%;
+  height: 900px;
+}
+
+#services1 {
+  float: left;
+  font-size: 24px;
+}
+
+#services2 {
+  float: right;
+  font-size: 16px;
+}
+
+#info-services, #des-services {
+  margin: 300px 150px 0 150px;
+  line-height: 30px;
+}
+
+#Read_more {
+  margin-left: 150px;
+  margin-top: 30px;
+  background-color: #D5E1DF;
+  height: 43px;
+  width: 195px;
+  color: #3e4241;
+}
+
+#buttons {
+  padding: 10px 0 0 60px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
