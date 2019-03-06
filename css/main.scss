@@ -23,6 +23,81 @@ section {
     float: left;
 }
 
+///     HEADER      ///
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    color: $primary-color-background;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h1 {
+    color: $primary-color-background;
+    font-size: 300%;
+    padding-top: 270px;
+    padding-left: 130px;
+    word-spacing: 4px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 120%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-left: 130px;
+}
+
+.btn:link,
+.btn:visited {
+    border-radius: 200px;
+    text-decoration: none;
+    font-weight: 300;
+    margin-top: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    color: $primary-color-background;
+    margin-left: 130px;
+    background: $color-button-inactive;
+    border: 1px solid $color-button-inactive;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: $color-button-inactive;
+    border: 1px solid $color-button-inactive;
+}
+
+.btn:hover,
+.btn:active {
+    background: $color-button-active;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid $color-button-active;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    color: $primary-color-background;
+    border: 1px solid $color-button-active;
+}
+
 ///      NAVBAR       ///
 nav {
     width: 100%;
@@ -84,7 +159,6 @@ nav>ul {
 
 #photo-contact {
     background-image: url(../img/contact-bacground.jpg);
-    
     max-height: 100%;
 }
 
@@ -130,39 +204,43 @@ nav>ul {
     float: left;
     background-repeat: no-repeat;
 }
+
 #main-footer {
     text-align: center;
     margin-top: 900px;
     background-color: $color-footer;
-    color: #fff;
-    height:35px; 
+    color: $primary-color-background;
+    height: 35px;
     font-size: 14px;
     padding-top: 15px;
 }
-    
+
 // SECTION SERVICES
-#services1,#services2{
-  
+#services1,
+#services2 {
     color: $primary-color-fonts;
-    
     text-align: left;
     width: 50%;
     height: 900px;
-    
 }
-#services1{
+
+#services1 {
     float: left;
     font-size: 24px;
 }
-#services2{
+
+#services2 {
     float: right;
     font-size: 16px;
 }
-#info-services, #des-services{
+
+#info-services,
+#des-services {
     margin: 300px 150px 0 150px;
     line-height: 30px;
 }
-#Read_more{
+
+#Read_more {
     margin-left: 150px;
     margin-top: 30px;
     background-color: $secondary-color-background;
@@ -170,9 +248,8 @@ nav>ul {
     width: 195px;
     color: $primary-color-fonts;
 }
-#buttons{
+
+#buttons {
     padding: 10px 0 0 60px;
     text-decoration: none;
-    
-    
 }
