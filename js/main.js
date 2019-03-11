@@ -1,43 +1,8 @@
-$('#Read_more').click(function () {
-    $('#Gestalt').css('display', 'block'),
-        $('#Cennik').css('display', 'block'),
-        $('#Home').css('display', 'none'),
-        $('#Offer').css('display', 'none'),
-        $('#Kontakt').css('display', 'none')
-});
-$('#Home-button').click(function () {
-    $('#Gestalt').css('display', 'none'),
-        $('#Cennik').css('display', 'none'),
-        $('#Home').css('display', 'block'),
-        $('#Offer').css('display', 'block'),
-        $('#Kontakt').css('display', 'block')
-});
-$('#Offer-button').click(function () {
-    $('#Gestalt').css('display', 'none'),
-        $('#Cennik').css('display', 'none'),
-        $('#Home').css('display', 'block'),
-        $('#Offer').css('display', 'block'),
-        $('#Kontakt').css('display', 'block')
-});
-$('#Kontakt-button').click(function () {
-    $('#Gestalt').css('display', 'none'),
-        $('#Cennik').css('display', 'none'),
-        $('#Home').css('display', 'block'),
-        $('#Offer').css('display', 'block'),
-        $('#Kontakt').css('display', 'block')
-});
-$('#Gestalt-button').click(function () {
-    $('#Gestalt').css('display', 'block'),
-        $('#Cennik').css('display', 'block'),
-        $('#Home').css('display', 'none'),
-        $('#Offer').css('display', 'none'),
-        $('#Kontakt').css('display', 'none')
-});
-$('#Cennik-button').click(function () {
-    $('#Gestalt').css('display', 'block'),
-        $('#Cennik').css('display', 'block'),
-        $('#Home').css('display', 'none'),
-        $('#Offer').css('display', 'none'),
-        $('#Kontakt').css('display', 'none')
-});
+////*************************Animations */
+window.sr = ScrollReveal();
+sr.reveal('.info, .photo', { delay: 200, reset: true });
+
+sr.reveal('#services1,#services2', { delay: 300, reset: true });
+
+sr.reveal('#info1-gestalt,#info2-gestalt,#info3-gestalt', { delay: 350, reset: true });
 
