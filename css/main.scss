@@ -23,9 +23,7 @@ $font-family:"Futura-LightOblique";
 #Gestalt,#Offer {
     background: $secondary-color-background;
 }
-#Gestalt, #Cennik{
-    display: none;
-}
+
 
 section {
     width: 100%;
@@ -35,7 +33,9 @@ section {
 
 ///     HEADER      ///
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header.jpg);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header.jpg);
+
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -145,15 +145,14 @@ nav>ul {
 
 #info-contact {
     margin-top: 200px;
+ 
 }
-
 #home-name {
     font-size: 100px;
     color: $primary-color-fonts;
     margin-left: 150px;
     text-align: left;
 }
-
 #home-des {
     color: $secondary-color-fonts;
     font-size: 24px;
