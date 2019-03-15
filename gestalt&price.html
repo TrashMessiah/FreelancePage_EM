@@ -10,96 +10,176 @@
     <link href="css/main.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4"></script>
+    <!--Fonts Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <section id="nav">
-        <nav>
-            <ul>
-                <li><a href="index-polish.html#Home">O mnie</li>
-                <li><a href="index-polish.html#Offer">Oferta</li>
-                <li><a href="#Gestalt"> Gestalt</li>
-                <li><a href="#Cennik"> Cennik</li>
-                <li><a href="index-polish.html#Kontakt"> Kontakt</li>
-                <li>
-                    <div class="icons">
-                        <a href="index-english.html">
-                            <i class="fas fa-flag"></i>
-                        </a>
-                    </div>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #D5E1DF">
+            <a class="navbar-brand" href="">Ewelina Mechelewska</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class=nav-link href="index-polish.html#Home">Home</a> </li>
+                    <li class="nav-item"><a class=nav-link href="index-polish.html#AboutMe">O mnie</a></li>
+                    <li class="nav-item"><a class=nav-link href="#Offer">Oferta</a></li>
+                    <li class="nav-item"><a class=nav-link href="#Gestalt"> Gestalt</a></li>
+                    <li class="nav-item"><a class=nav-link href="#Cennik"> Cennik</a></li>
+                    <li class="nav-item"><a class=nav-link href="index-polish.html#Kontakt"> Kontakt</a></li>
+                </ul>
+
+            </div>
         </nav>
     </section>
+    <section id="Offer">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="photo-offer" class="photo col-lg-6  col-sm-12 "></div>
+                <div id="info-gestalt" class="info col-lg-6  col-sm-12 ">
+                    <p id="info1-gestalt">
+                        <p class="gestalt-name">Konsultacja terapeutyczna
+                            <br>
+                            <img src="img/lines.png" id="lines">
+                            <br>
+                        </p>
+
+                        <p> Jest to spotkanie, mające na celu wstępne rozpoznanie sytuacja życiowej i emocjonalnej
+                            klienta,
+                            dzięki któremu możliwe jest wybranie najbardziej adekwatnej formy pomocy (psychoterapia
+                            krótkoterminowa, długoterminowa, psychoedukacja,konsultacja specjalistyczna).
+                            Liczba sesji konsultacyjnych zależy od złożoności problemu oraz gotowości klienta do
+                            podjęcia
+                            kolejnych kroków. Najczęściej są to 2-3 spotkania.
+                        </p>
+                    </p>
+                    <p id="info2-gestalt">
+                        <p class="gestalt-name">Psychoterapia indywidualna
+                            <br>
+                            <img src="img/lines.png" id="lines">
+                            <br>
+                        </p>
+                        <p>Psychoterapia indywidualna to cykl regularnych spotkań, który ma na celu stworzenie warunków
+                            do
+                            rozwoju osobowości poprzez poszerzanie samoświadomości swoich uczuć, myśli, pragnień oraz
+                            doznań
+                            płynących z ciała. W atmosferze zaufania i akceptacji, w doświadczaniu perspektywy tu i
+                            teraz
+                            klient
+                            dostrzega możliwość WYBORU dla tego co chce i pragnie. Kolejnym krokiem jest wzięcie
+                            odpowiedzialności za siebie i przeżywanie swojego życia w sposób pełny i satysfakcjonujący.
+                            Sesje odbywają się cyklicznie, raz w tygodniu, trwają 50 minut.</p>
+                    </p>
+                    </p>
+                    <p id="info3-gestalt"></p>
+                    <p class="gestalt-name">Warsztaty rozwoju osobistego
+
+                        <br>
+                        <img src="img/lines.png" id="lines">
+                        <br>
+                    </p>
+                    <p> To grupowe spotkania prowadzone w nurcie Gestalt, w oparciu o proces grupowy skupiające
+                        uczestników
+                        wokół poszerzania świadomości w zakresie emocji, ciała, myśli i swoich sposobów bycia w
+                        relacjach.
+
+                        Praca w grupie umożliwia nieoceniający kontakt z sobą i z innymi, pozwala w bezpiecznych
+                        warunkach
+                        doświadczać i sprawdzać swoje granice, sięgać w potrzebie po wsparcie oraz inspirować się sobą
+                        nawzajem.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="Gestalt">
-        <div id="photo-gestalt" class="photo"></div>
-        <div id="info-gestalt" class="info">
-            <p id="info1-gestalt">
-                <p class="gestalt-name">Counselling
+        <div class="container-fluid">
+            <div class="row">
+                <div id="info-cennik" class="info col-lg-6  col-sm-12">
+                    <p id="cennik-name">Gestalt
+                        <br>
+                        <img src="img/lines.png" id="lines">
+                        <br>
+                    </p>
+                    <p>Praca psychoterapeutyczna w nurcie Gestalt polega na poszerzaniu samoświadomości poprzez
+                        spotykanie
+                        się z
+                        sobą w autentycznej, prawdziwej relacji z psychoterapeutą.
+                        Daje to możliwość pooglądania siebie w relacji/w świecie, doświadczenia siebie w autentycznych
+                        emocjach,
+                        powrotu czucia, nazywania, dzielenia się, asymilowania i akceptowania tego, co jest moje. </p>
+                    <p>Podczas pracy spotykają się emocje, myśli i potrzeby a także odczucia płynące z ciała.
+                        Dzięki świadomości i doświadczeniu siebie w tu i teraz dostrzegamy możliwość dokonania wyboru w
+                        zgodzie
+                        z tym co potrzebujemy, wyboru tego co chcemy i jak chcemy dla siebie.
+                        Pozwala to brać odpowiedzialność za siebie i kreować życie w sposób pełny i satysfakcjonujący.
+                    </p>
+                    <p>
+                        Dla mnie osobiście, kluczowym aspektem podejścia Gestalt jest wiara w możliwości jednostki, jej
+                        umiejętność wspierania siebie i korzystania z osobistego potencjału.</p>
                     <br>
-                    <img src="img/lines.png" id="lines">
-                    <br>
-                </p>
-
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                    double click me to add your own content and make changes to the font. I’m a great place for you to
-                    tell a story and let your users know a little more about you.</p>
-            </p>
-            <p id="info2-gestalt">
-                <p class="gestalt-name">Cognitive Behavioural Therapy
-                    <br>
-                    <img src="img/lines.png" id="lines">
-                    <br>
-                </p>
-
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                    double click me to add your own content and make changes to the font. I’m a great place for you to
-                    tell a story and let your users know a little more about you.</p>
-            </p>
-            </p>
-            <p id="info3-gestalt"></p>
-            <p class="gestalt-name">Psychotherapy
-                <br>
-                <img src="img/lines.png" id="lines">
-                <br>
-            </p>
-            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                double click me to add your own content and make changes to the font. I’m a great place for you to tell
-                a story and let your users know a little more about you.</p>
-            </p>
+                    <p>"Bądź, jaki jesteś i wówczas zobaczysz, kim jesteś i jak jesteś. Pozwól sobie przez moment lub
+                        dwa na
+                        to,
+                        co chcesz zrobić i odkryj, co rzeczywiście robisz.
+                        Zaryzykuj troszkę, jeśli możesz. Czuj swoje własne uczucia. Mów swoje własne słowa. Myśl swoje
+                        własne
+                        myśli. Bądź sobą. Odkrywaj. Zaplanuj swój rozwój poprzez doświadczanie siebie." Fritz Perls</p>
+                </div>
+                <div id="photo-gestalt" class="photo col-lg-6  col-sm-12"></div>
+            </div>
         </div>
     </section>
-
     <section id="Cennik">
-        <div id="info-cennik" class="info">
-            <p id="cennik-name">Cennik
-                <br>
-                <img src="img/lines.png" id="lines">
-                <br>
-            </p>
-
-            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text”
-                or
-                double click me to add your own content and make changes to the font. I’m a great place for you to
-                tell a story and let your users know a little more about you.</p>
-            <p> This is a great space to write long text about your company and your services. You can use this space to
-                go into a little more detail about your company. Talk about your team and what services you provide.
-                Tell your visitors the story of how you came up with the idea for your business and what makes you
-                different from your competitors. Make your company stand out and show your visitors who you are.</p>
-            <p> At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s all
-                thanks to the support and feedback from users like you! Keep up to date with New Releases and what’s
-                Coming Soon in Wix ellaneous in Support. Feel free to tell us what you think and give us feedback in the
-                Wix Forum. If you’d like to benefit from a professional designer’s touch, head to the Wix Arena and
-                connect with one of our Wix Pro designers. Or if you need more help you can simply type your questions
-                into the Support Forum and get instant answers. To keep up to date with everything Wix, including tips
-                and things we think are cool, just head to the Wix Blog!</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="photo-price" class="photo col-lg-6  col-sm-12"></div>
+                <div id="info-price" class="info col-lg-6  col-sm-12">
+                    <p id="info1-price">
+                        <p class="gestalt-name">Konsultacja terapeutyczna<br><img src="img/lines.png" id="lines"><br>
+                        </p>
+                        <p> Cena</p>
+                    </p>
+                    <p id="info2-price">
+                        <p class="gestalt-name">Psychoterapia indywidualna<br><img src="img/lines.png" id="lines"><br>
+                        </p>
+                        <p>Cena</p>
+                    </p>
+                    <p id="info3-price">
+                        <p class="gestalt-name">Warsztaty rozwoju osobistego<br><img src="img/lines.png" id="lines"><br>
+                        </p>
+                        <p> Cena</p>
+                    </p>
+                </div>
+            </div>
         </div>
-        <div id="photo-cennik" class="photo"></div>
-
     </section>
-    <script>ScrollReveal().reveal('.info', { delay: 200, reset: true })</script>
-    <script>ScrollReveal().reveal('.photo', { delay: 200, reset: true })</script>
+    <section>
+        <footer id="main-footer">
+            © 2023 by Ewelina Mechelewska
+        </footer>
+    </section
+    <script src="js/main.js"></script>
 </body>

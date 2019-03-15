@@ -1,254 +1,124 @@
-$font-family:"Futura-LightOblique";
+$font-family: 'Lato';
+
+
+
 @import "../css/colors.scss";
 @import "../css/fonts.scss";
 * {
     margin: 0;
     padding: 0;
     font-family: $font-family;
+  
     a{
         text-decoration: none;
     }
     
 }
-
-#nav{
-    height: 90px; 
-}
 #Home,
 #Kontakt,
-#Cennik {
+#Cennik,
+#Offer {
     background: $primary-color-background;
 }
 
-#Gestalt,#Offer {
+#Gestalt,
+#AboutMe {
     background: $secondary-color-background;
 }
 
-
-section {
-    width: 100%;
-    height: 900px;
-    float: left;
-}
-
-///     HEADER      ///
-header {
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header.jpg);
-
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-}
-
-h1,
-h2 {
-    color: $primary-color-background;
-    text-transform: uppercase;
-    font-weight: 300;
-}
-
-h1 {
-    color: $primary-color-background;
-    font-size: 300%;
-    padding-top: 270px;
-    padding-left: 130px;
-    word-spacing: 4px;
-    margin-bottom: 20px;
-    margin-top: 0px;
-    letter-spacing: 1px;
-}
-
-h2 {
-    font-size: 120%;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-    padding-left: 130px;
-}
-
-.btn:link,
-.btn:visited {
-    border-radius: 200px;
-    text-decoration: none;
-    font-weight: 300;
-    margin-top: 20px;
-    padding: 10px 30px;
-    display: inline-block;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-
-.btn-full:link,
-.btn-full:visited {
-    color: $primary-color-background;
-    margin-left: 130px;
-    background: $color-button-inactive;
-    border: 1px solid $color-button-inactive;
-    margin-right: 15px;
-}
-
-.btn-ghost:link,
-.btn-ghost:visited {
-    color: $color-button-inactive;
-    border: 1px solid $color-button-inactive;
-}
-
-.btn:hover,
-.btn:active {
-    background: $color-button-active;
-}
-
-.btn-full:hover,
-.btn-full:active {
-    border: 1px solid $color-button-active;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-    color: $primary-color-background;
-    border: 1px solid $color-button-active;
-}
-
 ///      NAVBAR       ///
-nav {
-    width: 100%;
-    height: 90px;
-    position: fixed;
-    z-index: 1;
-    background-color: $secondary-color-background;
-    opacity: 0.6;
+
+
+.navbar-custom {
+    background-color: #D5E1DF;
+
 }
 
-nav>ul {
+.navbar-brand{
+    color: $color-text-navbar!important;
+}
+
+ul {
     float: right;
     width: fit-content;
-    margin: auto;
     list-style: none;
+    
     li {
         float: left;
-        margin-top: 30px;
-        margin-right: 65px;
+        margin-right: 55px;
         a {
-            color: $color-text-navbar;
+        
             font-size: 20px;
             font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
         }
     }
 }
 
-///////////////////////
-#info-homepage {
-    margin-top: 230px;
+// SECTION SERV
+#lines{
+    width: 50px;
+    height: 18px;
+    padding-right: 15px;
 }
 
-#info-contact {
-    margin-top: 200px;
- 
+
+////photos//////
+.photo{
+    background-size:850px;
+    height: 900px; 
+    background-repeat: none;
+}
+#photo-homepage{
+    background-image:url(../img/home-picture.jpg);
+}
+#photo-contact{
+    background-image:url(../img/contact-bacground.jpg);
+}
+#photo-offer{
+    background-image: url(../img/gestalt-photo1.jpg);
+}
+#photo-gestalt{
+    background-image: url(../img/gestalt-photo2.jpg);
+}
+#photo-price{
+    background-image: url(../img/photo-price.jpg);
+}
+
+///////Home section//////
+#info-homepage {
+    margin-top: 13%;
+    width: 100%;
 }
 #home-name {
-    font-size: 100px;
+    font-size: 5vw;
     color: $primary-color-fonts;
-    margin-left: 150px;
+    margin-left: 20%;
     text-align: left;
 }
 #home-des {
     color: $secondary-color-fonts;
-    font-size: 24px;
-    margin-left: 150px;
+    font-size: 2vw;
+    margin-left: 20%;
     text-align: left;
 }
-
-#photo-homepage {
-    background-image: url(../img/home-picture.jpg);
-}
-
-#photo-contact {
-    background-image: url(../img/contact-bacground.jpg);
-    max-height: 100%;
-}
-
-#contact_me {
-    margin-left: 150px;
-    font-size: 24px;
-    text-align: left;
-    color: $secondary-color-fonts;
-}
-
-#info-text {
-    margin: 40px 150px 0 150px;
-    font-size: 16px;
-    color: $secondary-color-fonts;
-    text-align: left;
-    line-height: 30px;
-}
-
 #home-text {
     font-size: 16px;
     color: $secondary-color-fonts;
-    margin: 100px 150px 0 150px;
+    margin: 10% 20% 20% 20%;
     text-align: left;
     line-height: 30px;
 }
 
-#info-adress,
-#info-phone {
-    margin: 40px 150px 0 150px;
-    color: $primary-color-fonts;
-    font-size: 16px;
-    text-align: left;
-}
+/////////AboutMe section
 
-.info {
-    width: 50%;
-    float: right;
-    text-align: justify;
-}
-
-.photo {
-    width: 50%;
-    height: 900px;
-    float: left;
-    background-size: 800px;
-    background-repeat: no-repeat;
-}
-
-#main-footer {
-    text-align: center;
-    margin-top: 900px;
-    background-color: $color-footer;
-    color: $primary-color-background;
-    height: 35px;
-    font-size: 14px;
-    padding-top: 15px;
-}
-
-// SECTION SERVICES
-#services1,
-#services2 {
-    color: $primary-color-fonts;
-    text-align: left;
-    width: 50%;
-    height: 900px;
-}
-
-#services1 {
-    float: left;
-    font-size: 24px;
-}
-
-#services2 {
-    float: right;
-    font-size: 16px;
-}
-
-#info-services,
 #des-services {
-    margin: 300px 150px 0 150px;
+    margin: 20% 10% 0 10%;
     line-height: 30px;
-}
 
+}
+#info-services{
+    margin: 20% 10% 0 10%;
+}
 #Read_more {
     margin-left: 150px;
     margin-top: 30px;
@@ -259,38 +129,97 @@ nav>ul {
 }
 
 #buttons {
-    padding: 10px 0 0 60px;
+    padding: 10px 0 0 35%;
+}
+#services2{
+    height: 900px;
+
+}
+/////kontakt section
+#info-contact {
+    margin-top: 13%;
+ 
+}
+#contact_me {
+    margin-left: 18%;
+    font-size: 24px;
+    text-align: left;
+    color: $secondary-color-fonts;
 }
 
-#lines{
-    width: 50px;
-    height: 18px;
-    padding-right: 15px;
-}
-
-#photo-gestalt{
-    background-image: url(../img/gestalt-photo1.jpg);
-}
-#photo-cennik{
-    background-image: url(../img/gestalt-photo2.jpg);
-    float: right;
-}
-.gestalt-name{
-    font-size: 22px;
-    padding-top: 100px;
-}
-#info-gestalt p{
-    margin: 0 150px 0 150px;
+#info-text {
+    margin:0 18% 0 18%;
+    font-size: 16px;
+    color: $secondary-color-fonts;
     line-height: 30px;
 }
-#info-cennik{
-    float: left;
+#info-adress,
+#info-phone {
+    margin: 5% 18%0 18%;
+    color: $primary-color-fonts;
+    font-size: 16px
 }
-#cennik-name{
+#info-phone{
+    margin-bottom: 20%;
+}
+///////footer
+#main-footer {
+    text-align: center;
+    background-color: $color-footer;
+    color: $primary-color-background;
+    height: 35px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+///////offer section
+gestalt-name,.price-name {
     font-size: 22px;
-    margin-top: 150px;
+    padding-top: 5%;
+}
+#info-gestalt  p{
+    margin: 0 9% 2% 9%;
+    line-height: 30px;
+}
+#info-gestalt{
+    padding: 5% 0 0 0;
+}
+//////gestalt section
+
+#cennik-name, #info1-price{
+    font-size: 22px;
+    margin-top: 15%;
 }
 #info-cennik p{
-    padding: 20px 150px 0 150px;
+    padding: 2% 10%;
     line-height: 30px;
 }
+.gestalt-name{
+    font-size:24px;
+}
+//////price section
+
+#info-price p {
+    padding: 1% 10%;
+    line-height: 30px;
+
+}
+* {
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 800px) {
+    .photo {
+
+      background-size:200px;
+      background-repeat: none;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .photo {
+      background-size:200px;
+      width: 200px;
+      height: 300px;
+
+    }
+  }
