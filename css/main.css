@@ -228,7 +228,7 @@ gestalt-name, .price-name {
 @media screen and (max-width: 800px) {
   .photo {
     background-size: 200px;
-    background-repeat: none;
+    background-repeat: no-repeat;
   }
 }
 
