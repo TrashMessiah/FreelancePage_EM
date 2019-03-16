@@ -43,6 +43,19 @@
   color: #000000 !important;
 }
 
+.navbar .navbar-nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  margin-left: 20%;
+  height: 100%;
+}
+
 ul {
   float: right;
   width: -webkit-fit-content;
@@ -67,30 +80,17 @@ ul li a {
   padding-right: 15px;
 }
 
-.photo {
-  background-size: 850px;
-  height: 900px;
-  background-repeat: none;
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#photo-homepage, #photo-contact, #photo-gestalt, #photo-offer, #photo-price {
+  padding: 0;
 }
 
 #photo-homepage {
-  background-image: url(../img/home-picture.jpg);
-}
-
-#photo-contact {
-  background-image: url(../img/contact-bacground.jpg);
-}
-
-#photo-offer {
-  background-image: url(../img/gestalt-photo1.jpg);
-}
-
-#photo-gestalt {
-  background-image: url(../img/gestalt-photo2.jpg);
-}
-
-#photo-price {
-  background-image: url(../img/photo-price.jpg);
+  margin-top: 60px;
 }
 
 #info-homepage {
@@ -101,13 +101,14 @@ ul li a {
 #home-name {
   font-size: 5vw;
   color: #3e4241;
+  margin-top: 40%;
   margin-left: 20%;
   text-align: left;
 }
 
 #home-des {
   color: #6e6e6e;
-  font-size: 2vw;
+  font-size: 1.5vw;
   margin-left: 20%;
   text-align: left;
 }
@@ -222,19 +223,67 @@ gestalt-name, .price-name {
           box-sizing: border-box;
 }
 
+@media screen and (max-width: 1390px) {
+  .gestalt-name {
+    font-size: 19px;
+  }
+  .gestalt-name #info-gestalt p {
+    margin: 0 5% 2% 5%;
+    font-size: 4vw;
+  }
+}
+
 @media screen and (max-width: 800px) {
-  .photo {
-    background-size: 200px;
-    background-repeat: no-repeat;
+  #photo-homepage, #photo-contact, #photo-offer, #photo-gestalt {
+    max-width: 60%;
+    max-height: 60%;
+  }
+  #photo-homepage img, #photo-contact img, #photo-offer img, #photo-gestalt img {
+    margin-left: 35%;
+    margin-top: 20%;
+  }
+  #home-text {
+    margin: 10%;
+  }
+  #home-name {
+    margin-top: 6%;
+  }
+  #info-price p {
+    padding: 0 10%;
+  }
+  #photo-price {
+    display: none;
+  }
+  #photo-offer, #photo-homepage {
+    margin-top: 10%;
+  }
+  #info-text, #contact_me {
+    margin: 2% 5% 0 5%;
+  }
+  #info-adress, #info-phone {
+    margin: 2% 5% 5% 5%;
+    text-align: center;
+  }
+  #home-des {
+    font-size: 3vw;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .photo {
-    background-size: 200px;
-    width: 200px;
-    height: 300px;
+@media screen and (max-width: 400px) {
+  #des-services {
+    font-size: 15px;
+  }
+  #info-services {
+    display: none;
+  }
+  #Read_more {
+    margin-left: 25%;
+    margin-top: 0;
+  }
+  #lines {
+    width: 45px;
+    height: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
