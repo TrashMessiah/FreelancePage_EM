@@ -40,6 +40,10 @@ html {
 .navbar .navbar-nav {
     display: inline-flex;
     float: none;
+    
+}
+.navbar-nav{
+    margin-right: 0;
 }
 .navbar{
     opacity: 0.9;
@@ -57,7 +61,7 @@ ul {
     
     li {
         
-        margin-right: 55px;
+        margin-right: 50px;
         a {
             font-size: 20px;
             font-weight: bold;
@@ -112,9 +116,7 @@ img{
 }
 
 /////////AboutMe section
-#AboutMe{
-    height: 800px;
-}
+
 #des-services {
     margin: 20% 10% 0 10%;
     line-height: 30px;
@@ -125,8 +127,7 @@ img{
     font-size: 24px;
 }
 #Read_more {
-    margin-left: 10%;
-    margin-top: 30px;
+    margin:10% 0 20% 10%;
     background-color: darken($secondary-color-background,18%);
     height: 43px;
     width: 195px;
@@ -136,25 +137,16 @@ img{
 #buttons {
     padding: 10px 0 0 35%;
 }
-#services2{
-    height: 900px;
 
-}
 /////kontakt section
 #info-contact {
     margin-top: 13%;
  
 }
-#contact_me {
-    margin-left: 18%;
-    font-size: 24px;
-    text-align: left;
-    color: $secondary-color-fonts;
-}
 
 #info-text {
     margin:0 18% 0 18%;
-    font-size: 16px;
+    font-size: 35px;
     color: $secondary-color-fonts;
     line-height: 30px;
 }
@@ -162,10 +154,14 @@ img{
 #info-phone {
     margin: 5% 18%0 18%;
     color: $primary-color-fonts;
-    font-size: 16px
+    font-size: 20px
 }
 #info-phone{
     margin-bottom: 20%;
+}
+#lines1{
+    width: 70px;
+    height: 18px;
 }
 ///////footer
 #main-footer {
@@ -177,17 +173,18 @@ img{
     padding-top: 10px;
 }
 ///////offer section
-gestalt-name,.price-name {
+.gestalt-name,.price-name {
     font-size: 22px;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 #info-gestalt  p{
-    margin: 0 9% 2% 9%;
+    margin: 0 9% 0 9%;
     line-height: 30px;
 }
 #info-gestalt{
-    padding: 5% 0 0 0;
+    margin-top: 40px;
 }
+
 //////gestalt section
 
 #cennik-name, #info1-price{
@@ -203,14 +200,12 @@ gestalt-name,.price-name {
 }
 //////price section
 
-#info-price p {
-    padding: 1% 10%;
+#info-price p,ul {
+   margin: 10% 10% 0 10%;
     line-height: 30px;
 
 }
-* {
-    box-sizing: border-box;
-}
+
 @media screen and(max-width:1600px){
    .gestalt-name{
         margin-left: 5%;
@@ -218,7 +213,7 @@ gestalt-name,.price-name {
 }
 
   @media screen and (max-width: 1390px){
-    .gestalt-name{
+    .gestalt-name,{
         font-size: 19px;
         #info-gestalt p{
             margin: 0 5% 2% 5%;
@@ -231,6 +226,10 @@ gestalt-name,.price-name {
   @media screen and (max-width: 800px) {
     .navbar{
         opacity: 1;
+    }
+ 
+    .navbar-collapse{
+        padding-left: 20%;
     }
     #photo-homepage, #photo-contact, #photo-offer,#photo-gestalt{
         max-width: 60%;
@@ -245,10 +244,7 @@ gestalt-name,.price-name {
     }
     #home-name{
         margin-top: 6%;
-    }
-    #info-price p {
-        padding: 0 10%;
-    
+        font-size:20px;
     }
     #photo-price{
         display: none;
@@ -274,18 +270,43 @@ gestalt-name,.price-name {
     #des-services {
         font-size: 13px;
         line-height: 25px;
-        margin-top: 10%;
+        margin-top: 20%;
     
     }
-  }
+    #info-phone,#info-adress,#info-text{
+        text-align: center;
+        font-size: 16px;
+
+    }
+    
+    #info-price p,ul {
+    margin: 20% 5% 5% 5%;
+     line-height: 30px;
   
+ 
+    }
+   #Read_more{
+       margin-left: 35%;
+   }
+    #info-services{
+        display: none;
+     }
+    #cennik-name{
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    #Read_more{
+        margin-left: 30%;
+    }
+  }
   @media screen and (max-width: 400px) {
    
     #info-services{
        display: none;
     }
     #Read_more{
-        margin-left: 10% ;
+        margin-left: 20% ;
         margin-top: 10%;
     }
    
