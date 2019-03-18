@@ -8,3 +8,6 @@ sr.reveal('#info-cennik, #photo-gestalt', { delay: 200, reset: true, duration: 2
 ////PriceSite
 sr.reveal('#photo-price,#info-price', { delay: 200, reset: true, duration: 2000 });
 
+$('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+});
