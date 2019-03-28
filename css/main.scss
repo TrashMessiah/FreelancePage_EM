@@ -3,7 +3,7 @@ $font-family: 'Lato';
 html {
     scroll-behavior: smooth;
     }
-
+   
 @import "../css/colors.scss";
 @import "../css/fonts.scss";
 * {
@@ -109,7 +109,7 @@ img{
 }
 #home-text {
     font-size: 16px;
-    color: $secondary-color-fonts;
+    color: $primary-color-fonts;
     margin: 10% 20% 20% 20%;
     text-align: left;
     line-height: 30px;
@@ -124,7 +124,12 @@ img{
 }
 #info-services{
     margin: 20% 20% 0 20%;
-    font-size: 24px;
+    font-size: 17px;
+    color: $secondary-color-fonts;
+    span{
+        font-size: 24px;
+        color: $primary-color-fonts;
+    }
 }
 #Read_more {
     margin:10% 0 20% 10%;
@@ -135,19 +140,20 @@ img{
 }
 
 #buttons {
-    padding: 10px 0 0 35%;
+    padding: 10px 0 0 75px;
 }
 
 /////kontakt section
 #info-contact {
     margin-top: 13%;
+    margin-bottom: 10%;
  
 }
 
 #info-text {
     margin:0 18% 0 18%;
     font-size: 35px;
-    color: $secondary-color-fonts;
+    color: $primary-color-fonts;
     line-height: 30px;
 }
 #info-adress,
@@ -175,10 +181,10 @@ img{
 ///////offer section
 .gestalt-name,.price-name {
     font-size: 22px;
-    padding-top: 4%;
+    padding-top: 8%;
 }
 #info-gestalt  p{
-    margin: 0 9% 0 9%;
+    margin: 4% 9% 0 9%;
     line-height: 30px;
 }
 #info-gestalt{
@@ -197,6 +203,8 @@ img{
 }
 .gestalt-name{
     font-size:24px;
+    padding-top: 2%;
+
 }
 //////price section
 
@@ -211,14 +219,32 @@ img{
         margin-left: 5%;
     }
 }
+ 
 
-  @media screen and (max-width: 1390px){
-    .gestalt-name,{
+  @media screen and (max-width: 1400px){
+    .gestalt-name{
         font-size: 19px;
-        #info-gestalt p{
-            margin: 0 5% 2% 5%;
-            font-size: 4vw;
-        }
+       
+    }
+    #info-gestalt p{
+        margin: 0 1% 2% 1%;
+        
+    }
+    
+
+}
+
+@media screen and (max-width: 1220px){
+    .gestalt-name{
+        font-size: 19px;
+      
+    
+    }
+    #info-gestalt p{
+        margin: 0 1% 2% 1%;
+        font-size: 15px;
+        margin-bottom: 0;
+        
     }
     
 
@@ -297,10 +323,13 @@ img{
   }
   @media screen and (max-width: 500px){
     #Read_more{
-        margin-left: 30%;
+        margin-left: 25%;
     }
+
+    
+    
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 410px) {
    
     #info-services{
        display: none;
@@ -308,6 +337,9 @@ img{
     #Read_more{
         margin-left: 20% ;
         margin-top: 10%;
+    }
+    #info-gestalt p{
+        padding: 2% 10%;
     }
    
     #lines{

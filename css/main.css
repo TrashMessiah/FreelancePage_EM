@@ -42,11 +42,8 @@ html {
   background: #ffffff;
 }
 
-
 .navbar-brand {
   color: #000000 !important;
-
-
 }
 
 .navbar .navbar-nav {
@@ -123,7 +120,7 @@ img {
 
 #home-text {
   font-size: 16px;
-  color: #6e6e6e;
+  color: #3e4241;
   margin: 10% 20% 20% 20%;
   text-align: left;
   line-height: 30px;
@@ -136,7 +133,13 @@ img {
 
 #info-services {
   margin: 20% 20% 0 20%;
+  font-size: 17px;
+  color: #6e6e6e;
+}
+
+#info-services span {
   font-size: 24px;
+  color: #3e4241;
 }
 
 #Read_more {
@@ -148,17 +151,18 @@ img {
 }
 
 #buttons {
-  padding: 10px 0 0 35%;
+  padding: 10px 0 0 75px;
 }
 
 #info-contact {
   margin-top: 13%;
+  margin-bottom: 10%;
 }
 
 #info-text {
   margin: 0 18% 0 18%;
   font-size: 35px;
-  color: #6e6e6e;
+  color: #3e4241;
   line-height: 30px;
 }
 
@@ -180,7 +184,7 @@ img {
 
 #main-footer {
   text-align: center;
-  background-color: #424746;
+  background-color: #574a5b;
   color: #fff;
   height: 40px;
   font-size: 14px;
@@ -189,11 +193,11 @@ img {
 
 .gestalt-name, .price-name {
   font-size: 22px;
-  padding-top: 4%;
+  padding-top: 8%;
 }
 
 #info-gestalt p {
-  margin: 0 9% 0 9%;
+  margin: 4% 9% 0 9%;
   line-height: 30px;
 }
 
@@ -213,6 +217,7 @@ img {
 
 .gestalt-name {
   font-size: 24px;
+  padding-top: 2%;
 }
 
 #info-price p, ul {
@@ -226,13 +231,23 @@ img {
   }
 }
 
-@media screen and (max-width: 1390px) {
+@media screen and (max-width: 1400px) {
   .gestalt-name {
     font-size: 19px;
   }
-  .gestalt-name #info-gestalt p {
-    margin: 0 5% 2% 5%;
-    font-size: 4vw;
+  #info-gestalt p {
+    margin: 0 1% 2% 1%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .gestalt-name {
+    font-size: 19px;
+  }
+  #info-gestalt p {
+    margin: 0 1% 2% 1%;
+    font-size: 15px;
+    margin-bottom: 0;
   }
 }
 
@@ -304,17 +319,20 @@ img {
 
 @media screen and (max-width: 500px) {
   #Read_more {
-    margin-left: 30%;
+    margin-left: 25%;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 410px) {
   #info-services {
     display: none;
   }
   #Read_more {
     margin-left: 20%;
     margin-top: 10%;
+  }
+  #info-gestalt p {
+    padding: 2% 10%;
   }
   #lines {
     width: 45px;
