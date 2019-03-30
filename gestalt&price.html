@@ -10,6 +10,9 @@
     <link href="css/main.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4"></script>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <!--Fonts Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -32,13 +35,13 @@
 
 <body>
     <section id="nav">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #D5E1DF">
-            <a class="navbar-brand" href="">Ewelina Mechelewska</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #aa91ac">
+            <a class=" navbar-brand" href="">Ewelina Mechelewska</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse" id="navbarToggler">
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class=nav-link href="index.html#Home">Home</a> </li>
@@ -56,48 +59,42 @@
         <div class="container-fluid">
             <div class="row">
                 <div id="photo-offer" class="photo col-lg-6  col-sm-12 ">
-                    <img src="css/img/gestalt-photo1.jpg">
+                    <img src="img/oferta.jpg">
                 </div>
                 <div id="info-gestalt" class="info col-lg-6  col-sm-12 ">
                     <p id="info1-gestalt">
                         <p class="gestalt-name">Konsultacja terapeutyczna
                             <br>
-                            <img src="css/img/lines.png" id="lines">
+                            <img src="img/lines.png" id="lines">
                             <br>
                         </p>
 
-                        <p> Jest to spotkanie, mające na celu wstępne rozpoznanie sytuacja życiowej i emocjonalnej
-                            klienta,
-                            dzięki któremu możliwe jest wybranie najbardziej adekwatnej formy pomocy (psychoterapia
-                            krótkoterminowa, długoterminowa, psychoedukacja,konsultacja specjalistyczna).
-                            Liczba sesji konsultacyjnych zależy od złożoności problemu oraz gotowości klienta do
-                            podjęcia
+                        <p>Jest to spotkanie, mające na celu wstępne rozpoznanie sytuacji życiowej i emocjonalnej
+                            klienta, dzięki któremu możliwe jest wybranie najbardziej adekwatnej formy pomocy. Liczba
+                            sesji konsultacyjnych zależy od złożoności problemu oraz gotowości klienta do podjęcia
                             kolejnych kroków. Najczęściej są to 2-3 spotkania.
                         </p>
                     </p>
                     <p id="info2-gestalt">
                         <p class="gestalt-name">Psychoterapia indywidualna
                             <br>
-                            <img src="css/img/lines.png" id="lines">
+                            <img src="img/lines.png" id="lines">
                             <br>
                         </p>
-                        <p>Psychoterapia indywidualna to cykl regularnych spotkań, który ma na celu stworzenie warunków
-                            do
-                            rozwoju osobowości poprzez poszerzanie samoświadomości swoich uczuć, myśli, pragnień oraz
-                            doznań
-                            płynących z ciała. W atmosferze zaufania i akceptacji, w doświadczaniu perspektywy tu i
-                            teraz
-                            klient
-                            dostrzega możliwość WYBORU dla tego co chce i pragnie. Kolejnym krokiem jest wzięcie
-                            odpowiedzialności za siebie i przeżywanie swojego życia w sposób pełny i satysfakcjonujący.
-                            Sesje odbywają się cyklicznie, raz w tygodniu, trwają 50 minut.</p>
+                        <p>To cykl regularnych spotkań mających na celu trwałą zmianę w codziennym funkcjonowaniu
+                            klienta, rozpoznanie jego zasobów a także ograniczeń na drodze do pełnego i
+                            satysfakcjonującego życia. Psychoterapia może mieć perspektywę krótkoterminową (do 20
+                            spotkań) lub długoterminową. Psychoterapia długoterminowa to proces pogłębionej pracy
+                            dotykający funkcjonowania klienta na wielu płaszczyznach. Odbywa się w tempie klienta i
+                            trwa, tak długo, jak klient potrzebuje. Sesje odbywają się cyklicznie, raz w tygodniu,
+                            trwają 50 minut.</p>
                     </p>
                     </p>
                     <p id="info3-gestalt"></p>
                     <p class="gestalt-name">Warsztaty rozwoju osobistego
 
                         <br>
-                        <img src="css/img/lines.png" id="lines">
+                        <img src="img/lines.png" id="lines">
                         <br>
                     </p>
                     <p> To grupowe spotkania prowadzone w nurcie Gestalt, w oparciu o proces grupowy skupiające
@@ -122,7 +119,7 @@
                 <div id="info-cennik" class="info col-lg-6  col-sm-12">
                     <p id="cennik-name">Gestalt
                         <br>
-                        <img src="css/img/lines.png" id="lines">
+                        <img src="img/lines.png" id="lines">
                         <br>
                     </p>
                     <p>Praca psychoterapeutyczna w nurcie Gestalt polega na poszerzaniu samoświadomości poprzez
@@ -148,10 +145,12 @@
                         co chcesz zrobić i odkryj, co rzeczywiście robisz.
                         Zaryzykuj troszkę, jeśli możesz. Czuj swoje własne uczucia. Mów swoje własne słowa. Myśl swoje
                         własne
-                        myśli. Bądź sobą. Odkrywaj. Zaplanuj swój rozwój poprzez doświadczanie siebie." Fritz Perls</p>
+                        myśli. Bądź sobą. Odkrywaj.<br>
+                        <b> Zaplanuj swój rozwój poprzez doświadczanie siebie.</b>" ~Fritz
+                        Perls</p>
                 </div>
                 <div id="photo-gestalt" class="photo col-lg-6  col-sm-12">
-                    <img src="css/img/gestalt-photo2.jpg">
+                    <img src="img/gestalt.jpg">
                 </div>
             </div>
         </div>
@@ -159,36 +158,52 @@
     <section id="Cennik">
         <div class="container-fluid">
             <div class="row">
-                <div id="photo-price" class="photo col-lg-6  col-sm-12">
-                    <img src="css/img/photo-price2.jpg">
+                <div id="photo-price" class="photo col-lg-6 col-sm-12">
+                    <img src="img/cennik1.jpg">
                 </div>
                 <div id="info-price" class="info col-lg-6  col-sm-12">
-                    <p id="info1-price">
-                        <p class="gestalt-name">Konsultacja terapeutyczna<br><img src="css/img/lines.png"
-                                id="lines"><br>
-                        </p>
-                        <p> Cena</p>
+                    <p id="cennik-name">Cennik
+                        <br>
+                        <img src=" img/lines.png" id="lines">
+                        <br>
                     </p>
-                    <p id="info2-price">
-                        <p class="gestalt-name">Psychoterapia indywidualna<br><img src="css/img/lines.png"
-                                id="lines"><br>
-                        </p>
-                        <p>Cena</p>
+                    <p>
+                        Konsultacja terapeutyczna – 50 min – 120 PLN
+                        <br>
+                        Psychoterapia indywidualna – 50 min – 120 PLN
+                        <br>
+                        Ceny warsztatów rozwoju osobistego ustalane są zgodnie z wydarzeniami.
+                        <br>
+                        Zapraszam osoby, które czują, że ich życie nie wygląda tak jak pragną.
                     </p>
-                    <p id="info3-price">
-                        <p class="gestalt-name">Warsztaty rozwoju osobistego<br><img src="css/img/lines.png"
-                                id="lines"><br>
-                        </p>
-                        <p> Cena</p>
+                    <p>
+                        <ul>
+                            Zapraszam Ciebie jeśli:
+                            <li> - przeżywasz kryzys emocjonalny</li>
+                            <li> - cierpisz z powodu zaburzeń nastroju</li>
+                            <li> - odczuwasz lęk lub niepokój, który utrudnia codzienne funkcjonowanie</li>
+                            <li> - doświadczasz uczucia smutku i nie potrafisz sobie z tym poradzić</li>
+                            <li> - brakuje ci poczucia sensu, odczuwasz wewnętrzną pustkę</li>
+                            <li>- masz poczucie utraty wpływu na swoje życie</li>
+                            <li>- doświadczasz wyczerpania w poszukiwaniu spokoju, radości czy satysfakcji w życiu</li>
+                            <li> - masz trudności w nawiązywaniu lub utrzymywaniu relacji rodzinnych, partnerskich,
+                                wychowawczych</li>
+                            <li> - stoisz przed ważną zmianą w swoim życiu</li>
+                            <li> - żyjesz w ciągłym napięciu, nie radzisz sobie ze stresem</li>
+                            <li> - towarzyszą ci dolegliwości psychosomatyczne</li>
+                            <li> - towarzyszy ci zaniżone poczucie własnej wartości</li>
+                            <li> - chcesz lepiej poczuć, poznać i zrozumieć siebie</li>
+                        </ul>
                     </p>
+
                 </div>
             </div>
         </div>
     </section>
     <section>
         <footer id="main-footer">
-            © 2023 by Ewelina Mechelewska
+            © 2019 by Ewelina Mechelewska
         </footer>
-    </section <script src="js/main.js">
-    </script>
+    </section>
+    <script src="js/main.js"></script>
 </body>
