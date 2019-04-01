@@ -61,10 +61,16 @@ ul {
     
     li {
         
-        margin-right: 50px;
+        margin-right: 45px;
         a {
             font-size: 20px;
             font-weight: bold;
+            span{
+                padding-top: 2px;
+            }
+            img{
+                height: 17px;
+            }
         }
     }
 }
@@ -195,7 +201,7 @@ img{
 
 #cennik-name, #info1-price{
     font-size: 22px;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 #info-cennik p{
     padding: 2% 10%;
@@ -209,7 +215,7 @@ img{
 //////price section
 
 #info-price p,ul {
-   margin: 10% 10% 0 10%;
+   margin: 8% 10% 0 10%;
     line-height: 30px;
 
 }
