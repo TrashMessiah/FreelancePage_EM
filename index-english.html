@@ -8,164 +8,154 @@
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <title>Weclome!</title>
     <link href="css/main.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!--Fonts Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
 
-    <section id="nav">
 
-        <nav>
-            <ul>
-                <li><a href="#Home" id="Home-button">Home</li>
-                <li><a href="#Offer" id="Offer-button">Oferta</li>
-                <li><a href="#Gestalt" id="Gestalt-button"> Gestalt</li>
-                <li><a href="#Cennik" id="Cennik-button"> My Approach</li>
-                <li><a href="#Kontakt" id="Kontakt-button"> Contact</li>
-                <li>
-                    <div class="icons">
-                        <a href="index-polish.html">
-                            <i class="fas fa-flag"></i>
-                        </a>
-                    </div>
-                </li>
-            </ul>
+    <section id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #aa91ac">
+            <a class=" navbar-brand" href="">Ewelina Mechelewska</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class=nav-link href="#Home">Home </a> </li>
+                    <li class="nav-item"><a class=nav-link href="#AboutMe">About</a></li>
+                    <li class="nav-item"><a class=nav-link href="gestalt&price-english.html#Offer">Oferta</a></li>
+                    <li class="nav-item"><a class=nav-link href="gestalt&price-english.html#Gestalt"> Gestalt</a></li>
+                    <li class="nav-item"><a class=nav-link href="gestalt&price-english.html#Cennik"> Cennik</a></li>
+                    <li class="nav-item"><a class=nav-link href="#Kontakt"> Kontakt</a></li>
+                    <li class="nav-item"><a class=nav-link href="index.html#Home" style="padding-top:6px;"><img
+                                src="img/pol.png"></a>
+                    </li>
+                </ul>
+
+            </div>
         </nav>
     </section>
     <section id="Home">
-
-    <section id="Home">
-        <div id="Homepage">
-            <div id="photo-homepage" class="photo"></div>
-            <div id="info-homepage" class="info">
-                <p id="home-name">Ewelina Mechelewska</p>
-                <p id="home-des"><img src="img/lines.png" id="lines">Psycholog, Psychoterapeuta</p>
-                <p id="home-text">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just
-                    click
-                    “Edit Text” or double click me to add your own content and make changes to the font. I’m a great
-                    place for you to tell a story and let your users know
-                    a little more about you</p>
-            </div>
-        </div>
-    </section>
-    <section id="Offer">
-        <div>
-            <div id="services1">
-                <p id="info-services">Areas of Expertise
-                    <br>
-                    <img src="img/lines.png" id="lines">
-                    <br>
-                    Counselling, Psychotherapy, Cognitive Behavioural Therapy & Psychiatric Consultation.
-                </p>
-            </div>
-            <div id="services2">
-
-                <p id="des-services">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m
-                    a great place for you to tell a story and let your users know a little more about you.
-                    <br> This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the
-                    story of how you came up with the idea for your business and what makes you different from your competitors.
-                </p>
-                <a href=#Gestalt>
-                    <div id="Read_more">
-                        <p id="buttons">Read More</p>
+        <div class="container-fluid">
+            <div id="Homepage">
+                <div class="row">
+                    <div id="photo-homepage" class="photo col-lg-6 col-sm-12 ">
+                        <img src="img/home1.jpg">
                     </div>
-                </a>
+
+                    <div id=" info-homepage" class="info col-lg-6  col-sm-12">
+                        <p id="home-name">Ewelina Mechelewska</p>
+                        <p id="home-des"><img src="img/lines.png" id="lines">Psycholog, Psychoterapeutka</p>
+                        <p id="home-text">Prowadzę psychoterapię indywidualną oraz konsultacje psychologiczne dla osób
+                            potrzebujących wsparcia w trudnych emocjonalnie momentach życiowych.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="Gestalt">
-        <div id="photo-gestalt" class="photo"></div>
-        <div id="info-gestalt" class="info">
-            <p id="info1-gestalt">
-                <p class="gestalt-name">Counselling
-                    <br>
-                    <img src="img/lines.png" id="lines">
-                    <br>
-                </p>
+    <section id="AboutMe">
+        <div class="container-fluid">
+            <div class="row">
 
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                    double click me to add your own content and make changes to the font. I’m a great place for you to
-                    tell a story and let your users know a little more about you.</p>
-            </p>
-            <p id="info2-gestalt">
-                <p class="gestalt-name">Cognitive Behavioural Therapy
-                    <br>
-                    <img src="img/lines.png" id="lines">
-                    <br>
-                </p>
+                <div id="services1 " class="col-lg-6  col-sm-12">
+                    <p id="info-services"><span>Kilka słów o mnie</span>
+                        <br><img src="img/lines.png" id="lines"><br>
+                        Pomoc psychologiczna, interwencja w kryzysie, psychoterapia indywidualna prowadzona w nurcie
+                        Gestalt.
+                    </p>
+                </div>
 
-                <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                    double click me to add your own content and make changes to the font. I’m a great place for you to
-                    tell a story and let your users know a little more about you.</p>
-            </p>
-            </p>
-            <p id="info3-gestalt"></p>
-            <p class="gestalt-name">Psychotherapy
-                <br>
-                <img src="img/lines.png" id="lines">
-                <br>
-            </p>
-            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                double click me to add your own content and make changes to the font. I’m a great place for you to tell
-                a story and let your users know a little more about you.</p>
-            </p>
+
+                <div id="services2" class="col-lg-6  col-sm-12">
+
+                    <p id="des-services">Ukończyłam psychologię na Uniwersytecie im. Adama Mickiewicza w Poznaniu.
+                        Obecnie jestem w procesie certyfikacji w Wielkopolskiej Szkole Psychoterapii Gestalt. Ukończyłam
+                        także
+                        dwuletnią szkołę psychoterapii systemowej i rodzinnej w Wielkopolskim Towarzystwie Terapii
+                        Systemowej.
+                        Odbyłam liczne staże kliniczne. Poszerzam swoją wiedzę i doświadczenie uczestnicząc w
+                        treningach i warsztatach rozwojowych oraz psychoterapeutycznych. Swoją pracę poddaję regularnej
+                        superwizji a w
+                        pracy kieruję się Kodeksem Etycznym Polskiego Towarzystwa Psychoterapii Gestalt.<br><br>
+                        Posiadam kilkunastoletnie doświadczenie w pracy z osobami poszukującymi sposobów rozwiązań
+                        swoich
+                        problemów. Praktykę zawodową wiąże przede wszystkim z towarzyszeniem osobom w procesie rozwoju
+                        oraz
+                        odkrywania zasobów – silnych stron i obszarów, które mogą być przeszkodą w korzystaniu i
+                        czerpaniu z życia w pełni.
+                        <br><br>
+                        Wierzę, że dzięki świadomości docieramy do swoich potrzeb i nabywamy umiejętność ich
+                        zaspokajania oraz tworzenia rzeczywistości wokół nas, takiej, jakiej naprawdę pragniemy.
+                    </p>
+                    <a href=gestalt&price.html#Offer>
+                        <div id="Read_more">
+                            <p id="buttons">Oferta</p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
         </div>
     </section>
-
-    <section id="Cennik">
-        <div id="info-cennik" class="info">
-            <p id="cennik-name">Cennik
-                <br>
-                <img src="img/lines.png" id="lines">
-                <br>
-            </p>
-
-            <p> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text”
-                or
-                double click me to add your own content and make changes to the font. I’m a great place for you to
-                tell a story and let your users know a little more about you.</p>
-            <p> This is a great space to write long text about your company and your services. You can use this space to
-                go into a little more detail about your company. Talk about your team and what services you provide.
-                Tell your visitors the story of how you came up with the idea for your business and what makes you
-                different from your competitors. Make your company stand out and show your visitors who you are.</p>
-            <p> At Wix we’re passionate about making templates that allow you to build fabulous websites and it’s all
-                thanks to the support and feedback from users like you! Keep up to date with New Releases and what’s
-                Coming Soon in Wix ellaneous in Support. Feel free to tell us what you think and give us feedback in the
-                Wix Forum. If you’d like to benefit from a professional designer’s touch, head to the Wix Arena and
-                connect with one of our Wix Pro designers. Or if you need more help you can simply type your questions
-                into the Support Forum and get instant answers. To keep up to date with everything Wix, including tips
-                and things we think are cool, just head to the Wix Blog!</p>
-        </div>
-        <div id="photo-cennik" class="photo"></div>
-
-    </section>
-
     <section id="Kontakt">
-        <div id="photo-contact" class="photo"></div>
-        <div id="info-contact" class="info">
-            <div>
-                <p id="contact_me">Contact Me
-                    <br>
-                    <img src="img/lines.png" id="lines">
-                </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="photo-contact" class="photo col-lg-6  col-sm-12">
+                    <img src="img/kontakt1.jpg">
+                </div>
+                <div id="info-contact" class="info col-lg-6  col-sm-12">
 
-                <p id="info-text">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know
-                    a little more about you.</p>
-            </div>
-            <div>
-                <p id="info-adress">500 Terry Francois Street<br>San Francisco, CA 94158 <br>info@mysite.com</p>
-            </div>
-            <div>
-                <p id="info-phone">Tel: 123-456-7890<br>Fax: 123-456-7890</p>
+                    <div>
+
+                        <p id="info-text"><b>Ewelina Mechelewska</b>
+                            <br><img src="img/lines.png" id="lines1"><br></p>
+                    </div>
+                    <div>
+                        <p id="info-adress">ul. Wierzbięcice 33/4<br>61-559 Poznań</p>
+                    </div>
+                    <div>
+                        <p id="info-phone">tel. 600 678 515<br> ewelina.mechelewska@gmail.com
+
+                    </div>
+                </div>
             </div>
         </div>
-
-        </div>
+    </section>
+    <section>
         <footer id="main-footer">
-            © 2023 by Norah Horowitz, Ph.D. Proudly created with Wix.com
+            © 2019 by Ewelina Mechelewska
         </footer>
     </section>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
