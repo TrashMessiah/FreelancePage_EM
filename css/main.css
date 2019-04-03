@@ -102,7 +102,11 @@ img {
   max-height: 100%;
 }
 
-#photo-homepage, #photo-contact, #photo-gestalt, #photo-offer, #photo-price {
+#photo-homepage,
+#photo-contact,
+#photo-gestalt,
+#photo-offer,
+#photo-price {
   padding: 0;
 }
 
@@ -199,7 +203,8 @@ img {
   padding-top: 10px;
 }
 
-.gestalt-name, .price-name {
+.gestalt-name,
+.price-name {
   font-size: 22px;
   padding-top: 8%;
 }
@@ -213,7 +218,8 @@ img {
   margin-top: 40px;
 }
 
-#cennik-name, #info1-price {
+#cennik-name,
+#info1-price {
   font-size: 22px;
   margin-top: 8%;
 }
@@ -223,12 +229,20 @@ img {
   line-height: 30px;
 }
 
+#info-cennik p.quote {
+  padding-top: 0.25%;
+  padding-left: 20%;
+  font-style: italic;
+  font-weight: 400;
+}
+
 .gestalt-name {
   font-size: 24px;
   padding-top: 2%;
 }
 
-#info-price p, ul {
+#info-price p,
+ul {
   margin: 8% 10% 0 10%;
   line-height: 30px;
 }
@@ -266,11 +280,17 @@ img {
   .navbar-collapse {
     padding-left: 20%;
   }
-  #photo-homepage, #photo-contact, #photo-offer, #photo-gestalt {
+  #photo-homepage,
+  #photo-contact,
+  #photo-offer,
+  #photo-gestalt {
     max-width: 60%;
     max-height: 60%;
   }
-  #photo-homepage img, #photo-contact img, #photo-offer img, #photo-gestalt img {
+  #photo-homepage img,
+  #photo-contact img,
+  #photo-offer img,
+  #photo-gestalt img {
     margin-left: 35%;
     margin-top: 20%;
   }
@@ -284,13 +304,16 @@ img {
   #photo-price {
     display: none;
   }
-  #photo-offer, #photo-homepage {
+  #photo-offer,
+  #photo-homepage {
     margin-top: 10%;
   }
-  #info-text, #contact_me {
+  #info-text,
+  #contact_me {
     margin: 2% 5% 0 5%;
   }
-  #info-adress, #info-phone {
+  #info-adress,
+  #info-phone {
     margin: 2% 5% 5% 5%;
     text-align: center;
   }
@@ -306,11 +329,14 @@ img {
     line-height: 25px;
     margin-top: 20%;
   }
-  #info-phone, #info-adress, #info-text {
+  #info-phone,
+  #info-adress,
+  #info-text {
     text-align: center;
     font-size: 16px;
   }
-  #info-price p, ul {
+  #info-price p,
+  ul {
     margin: 20% 5% 5% 5%;
     line-height: 30px;
   }
