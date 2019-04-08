@@ -221,7 +221,7 @@ img {
 #cennik-name,
 #info1-price {
   font-size: 22px;
-  margin-top: 8%;
+  margin-top: 24%;
 }
 
 #info-cennik p {
@@ -241,9 +241,13 @@ img {
   padding-top: 2%;
 }
 
+#cennik-name {
+  margin-top: 13% !important;
+}
+
 #info-price p,
 ul {
-  margin: 8% 10% 0 10%;
+  margin: 3% 10% 0 10%;
   line-height: 30px;
 }
 
