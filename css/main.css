@@ -141,6 +141,7 @@ img {
 #des-services {
   margin: 20% 10% 0 10%;
   line-height: 30px;
+  text-align: justify;
 }
 
 #info-services {
@@ -212,6 +213,7 @@ img {
 #info-gestalt p {
   margin: 4% 9% 0 9%;
   line-height: 30px;
+  text-align: justify;
 }
 
 #info-gestalt {
@@ -227,6 +229,7 @@ img {
 #info-cennik p {
   padding: 2% 10%;
   line-height: 30px;
+  text-align: justify;
 }
 
 #info-cennik p.quote {
