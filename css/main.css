@@ -244,6 +244,10 @@ img {
   padding-top: 2%;
 }
 
+#photo-gestalt1 {
+  display: none;
+}
+
 #cennik-name {
   margin-top: 13% !important;
 }
@@ -356,6 +360,15 @@ ul {
   #cennik-name {
     font-size: 20px;
   }
+  #photo-gestalt1 {
+    display: block;
+  }
+  #photo-gestalt1 img {
+    padding: 10% 5% 0 5%;
+  }
+  #photo-gestalt {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -385,6 +398,9 @@ ul {
   }
   #info-cennik p {
     padding: 2% 5%;
+  }
+  ul li {
+    margin-right: 5%;
   }
 }
 /*# sourceMappingURL=main.css.map */
