@@ -231,6 +231,11 @@ img {
     font-size: 24px;
     padding-top: 2%;
 }
+#photo-gestalt1{
+  display:none;
+
+}
+
 
 //////price section
 #cennik-name{
@@ -344,11 +349,23 @@ ul {
     #cennik-name {
         font-size: 20px;
     }
+    #photo-gestalt1{
+        display:block;
+         img{
+             padding: 10% 5% 0 5%;
+         }
+    }
+    #photo-gestalt{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 500px) {
     #Read_more {
         margin-left: 25%;
+    }
+    .navbar .navbar-collapse{
+padding-left: 10%;
     }
 }
 
@@ -376,5 +393,8 @@ ul {
     } 
     #info-cennik p{
         padding: 2% 5%;
+    } 
+    ul li{
+        margin-right: 5%;
     }
 }
