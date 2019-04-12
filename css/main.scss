@@ -364,6 +364,9 @@ ul {
     #Read_more {
         margin-left: 25%;
     }
+    .navbar .navbar-collapse{
+padding-left: 10%;
+    }
 }
 
 @media screen and (max-width: 410px) {
@@ -375,11 +378,8 @@ ul {
         margin-top: 10%;
     }
     #info-gestalt p {
-
         padding: 2% 5%;
     }
-
-
     #lines {
         width: 45px;
         height: 10px;

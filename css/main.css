@@ -375,6 +375,9 @@ ul {
   #Read_more {
     margin-left: 25%;
   }
+  .navbar .navbar-collapse {
+    padding-left: 10%;
+  }
 }
 
 @media screen and (max-width: 410px) {
