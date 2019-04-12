@@ -96,6 +96,7 @@ img {
 #info-homepage {
     margin-top: 13%;
     width: 100%;
+    
 }
 
 #home-name {
@@ -119,6 +120,7 @@ img {
     margin: 10% 20% 20% 20%;
     text-align: left;
     line-height: 30px;
+    
 }
 
 /////////AboutMe section
@@ -360,12 +362,19 @@ ul {
     }
     #info-gestalt p {
 
-        padding: 5% 10%;
+        padding: 2% 5%;
     }
 
 
     #lines {
         width: 45px;
         height: 10px;
+    } 
+    #home-text{
+        margin-right: 5%; 
+        text-align: center;
+    } 
+    #info-cennik p{
+        padding: 2% 5%;
     }
 }
