@@ -369,6 +369,9 @@ ul {
   #photo-gestalt {
     display: none;
   }
+  #info-price p {
+    margin-top: 8%;
+  }
 }
 
 @media screen and (max-width: 500px) {
