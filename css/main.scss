@@ -358,6 +358,9 @@ ul {
     #photo-gestalt{
         display: none;
     }
+    #info-price p{
+        margin-top:8%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -365,8 +368,9 @@ ul {
         margin-left: 25%;
     }
     .navbar .navbar-collapse{
-padding-left: 10%;
+    padding-left: 10%;
     }
+  
 }
 
 @media screen and (max-width: 410px) {
@@ -394,4 +398,9 @@ padding-left: 10%;
     ul li{
         margin-right: 5%;
     }
+ 
+  
+}
+@media screen and (max-width: 410px) {
+   
 }
