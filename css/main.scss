@@ -4,7 +4,7 @@ html {
 }
 
 @import "../css/colors.scss";
-@import "../css/fonts.scss";
+
 * {
     margin: 0;
     padding: 0;
@@ -100,11 +100,12 @@ img {
 }
 
 #home-name {
-    font-size: 5vw;
     color: $primary-color-fonts;
     margin-top: 40%;
     margin-left: 20%;
     text-align: left;
+    font-size: 5vw;
+    line-height: 125px;
 }
 
 #home-des {
@@ -138,6 +139,7 @@ img {
         font-size: 24px;
         color: $primary-color-fonts;
     }
+    line-height: 25px;
 }
 
 #Read_more {
@@ -198,14 +200,15 @@ img {
     padding-top: 8%;
 }
 
-#info-gestalt p {
+#info-gestalt h6,h1 {
     margin: 4% 9% 0 9%;
     line-height: 30px;
     text-align: justify;
+  
 }
 
 #info-gestalt {
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 //////gestalt section
@@ -214,17 +217,14 @@ img {
     font-size: 22px;
     margin-top: 24%;
 }
-
-#info-cennik p {
+#cennik-name{
+padding-left: 1%;
+}
+#info-cennik h6 {
     padding: 2% 10%;
     line-height: 30px;
     text-align: justify;
-    &.quote {
-        padding-top: 0.25%;
-        padding-left: 20%;
-        font-style: italic;
-        font-weight: 400;
-    }
+  
 }
 
 .gestalt-name {
@@ -242,8 +242,7 @@ img {
     margin-top:13%!important;
 
 }
-#info-price p,
-ul {
+#info-price h6{
     margin: 3% 10% 0 10%;
     line-height: 30px;
 }
