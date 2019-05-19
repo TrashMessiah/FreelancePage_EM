@@ -1,1 +1,396 @@
-#photo-contact,#photo-gestalt,#photo-homepage,#photo-offer,#photo-price,*{padding:0}html{scroll-behavior:smooth}*{margin:0;font-family:Lato}* a{text-decoration:none}#Cennik,#Home,#Kontakt,#Offer{background:#fff}#AboutMe,#Gestalt{background:#f3e8f3}.navbar-brand{color:#000!important}.navbar .navbar-nav{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;float:none}.navbar-nav{margin-right:0}.navbar{opacity:.9}.navbar .navbar-collapse{text-align:center;height:100%}#home-des,#home-name,#home-text{text-align:left}#des-services,#info-cennik h6,#info-gestalt h6,h1{text-align:justify;line-height:30px}ul{float:right;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;list-style:none}ul li{margin-right:45px}ul li a{font-size:20px;font-weight:700}ul li a span{padding-top:2px}ul li a img{height:17px}#lines{width:50px;height:18px;padding-right:15px}img{max-width:100%;max-height:100%}#info-homepage{margin-top:13%;width:100%}#home-name{color:#3e4241;margin-top:40%;margin-left:20%;font-size:5vw;line-height:125px}#home-des{color:#6e6e6e;font-size:1.5vw;margin-left:20%}#home-text{font-size:16px;color:#3e4241;margin:10% 20% 20%;line-height:30px}#des-services{margin:20% 10% 0}#info-services{margin:20% 20% 0;font-size:17px;color:#6e6e6e;line-height:25px}#info-services span{font-size:24px;color:#3e4241}#Read_more{margin:10% 0 20% 10%;background-color:#d4acd4;height:43px;width:195px;color:#3e4241}#buttons{padding:10px 0 0 75px}#info-contact{margin-top:13%;margin-bottom:10%}#info-text{margin:0 18%;font-size:35px;color:#3e4241;line-height:30px}#info-adress,#info-phone{margin:5% 18% 0;color:#3e4241;font-size:20px}#info-phone{margin-bottom:20%}#lines1{width:70px;height:18px}#main-footer{text-align:center;background-color:#574a5b;color:#fff;height:40px;font-size:14px;padding-top:10px}.gestalt-name,.price-name{font-size:22px;padding-top:8%}#info-gestalt h6,h1{margin:4% 9% 0}#info-gestalt{margin-top:45px}#cennik-name,#info1-price{font-size:22px;margin-top:24%}#cennik-name{padding-left:1%;margin-top:13%!important}#info-cennik h6{padding:2% 10%}.gestalt-name{font-size:24px;padding-top:2%}#photo-gestalt1{display:none}#info-price h6{margin:3% 10% 0;line-height:30px}@media screen and (max-width:1600px){.gestalt-name{margin-left:5%}}@media screen and (max-width:1400px){.gestalt-name{font-size:19px}#info-gestalt p{margin:0 1% 2%}}@media screen and (max-width:1220px){.gestalt-name{font-size:19px}#info-gestalt p{margin:0 1%;font-size:15px}}@media screen and (max-width:800px){.navbar{opacity:1}.navbar-collapse{padding-left:20%}#photo-contact,#photo-gestalt,#photo-homepage,#photo-offer{max-width:60%;max-height:60%}#photo-contact img,#photo-gestalt img,#photo-homepage img,#photo-offer img{margin-left:35%;margin-top:20%}#home-text{margin:10%}#home-name{margin-top:6%;font-size:20px}#photo-gestalt,#photo-price{display:none}#photo-homepage,#photo-offer{margin-top:10%}#contact_me,#info-text{margin:2% 5% 0}#info-adress,#info-phone{margin:2% 5% 5%;text-align:center}#home-des{font-size:3vw}#info-services{font-size:13px;margin:10% 10% 0;display:none}#des-services{font-size:13px;line-height:25px;margin-top:20%}#info-adress,#info-phone,#info-text{text-align:center;font-size:16px}#info-price p,ul{margin:20% 5% 5%;line-height:30px}#Read_more{margin-left:35%}#cennik-name{font-size:20px}#photo-gestalt1{display:block}#photo-gestalt1 img{padding:10% 5% 0}#info-price p{margin-top:8%}}@media screen and (max-width:500px){#Read_more{margin-left:25%}.navbar .navbar-collapse{padding-left:10%}}@media screen and (max-width:410px){#home-text,ul li{margin-right:5%}#info-services{display:none}#Read_more{margin-left:20%;margin-top:10%}#info-cennik p,#info-gestalt p{padding:2% 5%}#lines{width:45px;height:10px}#home-text{text-align:center}}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+}
+
+* a {
+  text-decoration: none;
+}
+
+#Home,
+#Cennik,
+#Offer {
+  background: #fff;
+}
+
+#Gestalt,
+#AboutMe {
+  background: #f3e8f3;
+}
+
+#Kontakt {
+  background: #ffffff;
+}
+
+.navbar-brand {
+  color: #000000 !important;
+}
+
+.navbar .navbar-nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  float: none;
+}
+
+.navbar-nav {
+  margin-right: 0;
+}
+
+.navbar {
+  opacity: 0.9;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  height: 100%;
+}
+
+ul {
+  float: right;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  list-style: none;
+}
+
+ul li {
+  margin-right: 45px;
+}
+
+ul li a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul li a span {
+  padding-top: 2px;
+}
+
+ul li a img {
+  height: 17px;
+}
+
+#lines {
+  width: 50px;
+  height: 18px;
+  padding-right: 15px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#photo-homepage,
+#photo-contact,
+#photo-gestalt,
+#photo-offer,
+#photo-price {
+  padding: 0;
+}
+
+#info-homepage {
+  margin-top: 13%;
+  width: 100%;
+}
+
+#home-name {
+  color: #3e4241;
+  margin-top: 40%;
+  margin-left: 20%;
+  text-align: left;
+  font-size: 5vw;
+  line-height: 125px;
+}
+
+#home-des {
+  color: #6e6e6e;
+  font-size: 1.5vw;
+  margin-left: 20%;
+  text-align: left;
+}
+
+#home-text {
+  font-size: 16px;
+  color: #3e4241;
+  margin: 10% 20% 20% 20%;
+  text-align: left;
+  line-height: 30px;
+}
+
+#des-services {
+  margin: 20% 10% 0 10%;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#info-services {
+  margin: 20% 20% 0 20%;
+  font-size: 17px;
+  color: #6e6e6e;
+  line-height: 25px;
+}
+
+#info-services span {
+  font-size: 24px;
+  color: #3e4241;
+}
+
+#Read_more {
+  margin: 10% 0 20% 10%;
+  background-color: #d4acd4;
+  height: 43px;
+  width: 195px;
+  color: #3e4241;
+}
+
+#buttons {
+  padding: 10px 0 0 75px;
+}
+
+#info-contact {
+  margin-top: 13%;
+  margin-bottom: 10%;
+}
+
+#info-text {
+  margin: 0 18% 0 18%;
+  font-size: 35px;
+  color: #3e4241;
+  line-height: 30px;
+}
+
+#info-adress,
+#info-phone {
+  margin: 5% 18% 0 18%;
+  color: #3e4241;
+  font-size: 20px;
+}
+
+#info-phone {
+  margin-bottom: 20%;
+}
+
+#lines1 {
+  width: 70px;
+  height: 18px;
+}
+
+#main-footer {
+  text-align: center;
+  background-color: #574a5b;
+  color: #fff;
+  height: 40px;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.gestalt-name,
+.price-name {
+  font-size: 22px;
+  padding-top: 8%;
+}
+
+#info-gestalt h6, h1, h2, h3, h4, h5 {
+  margin: 4% 9% 0 9%;
+  line-height: 30px;
+  text-align: justify;
+}
+
+#info-gestalt {
+  margin-top: 45px;
+}
+
+#cennik-name,
+#info1-price {
+  font-size: 22px;
+  margin-top: 24%;
+}
+
+#cennik-name {
+  padding-left: 1%;
+}
+
+#info-cennik h6 {
+  padding: 2% 10%;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.gestalt-name {
+  font-size: 24px;
+  padding-top: 2%;
+}
+
+#photo-gestalt1 {
+  display: none;
+}
+
+#cennik-name {
+  margin-top: 13% !important;
+}
+
+#info-price h6 {
+  margin: 3% 10% 0 10%;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1600px) {
+  .gestalt-name {
+    font-size: 24px;
+    padding-top: 2%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .gestalt-name {
+    font-size: 19px;
+  }
+  #info-gestalt p {
+    margin: 0 1% 2% 1%;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .gestalt-name {
+    font-size: 19px;
+  }
+  #info-gestalt p {
+    margin: 0 1% 2% 1%;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    opacity: 1;
+  }
+  .navbar-collapse {
+    padding-left: 20%;
+  }
+  #photo-homepage,
+  #photo-contact,
+  #photo-offer,
+  #photo-gestalt {
+    max-width: 60%;
+    max-height: 60%;
+  }
+  #photo-homepage img,
+  #photo-contact img,
+  #photo-offer img,
+  #photo-gestalt img {
+    margin-left: 35%;
+    margin-top: 20%;
+  }
+  #home-text {
+    margin: 10%;
+  }
+  #home-name {
+    margin-top: 6%;
+    font-size: 20px;
+  }
+  #photo-price {
+    display: none;
+  }
+  #photo-offer,
+  #photo-homepage {
+    margin-top: 10%;
+  }
+  #info-text,
+  #contact_me {
+    margin: 2% 5% 0 5%;
+  }
+  #info-adress,
+  #info-phone {
+    margin: 2% 5% 5% 5%;
+    text-align: center;
+  }
+  #home-des {
+    font-size: 3vw;
+  }
+  #info-services {
+    font-size: 13px;
+    margin: 10% 10% 0 10%;
+  }
+  #des-services {
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 20%;
+  }
+  #info-phone,
+  #info-adress,
+  #info-text {
+    text-align: center;
+    font-size: 16px;
+  }
+  #info-price p,
+  ul {
+    margin: 20% 5% 5% 5%;
+    line-height: 30px;
+  }
+  #Read_more {
+    margin-left: 35%;
+  }
+  #info-services {
+    display: none;
+  }
+  #cennik-name {
+    font-size: 20px;
+  }
+  #photo-gestalt1 {
+    display: block;
+  }
+  #photo-gestalt1 img {
+    padding: 10% 5% 0 5%;
+  }
+  #photo-gestalt {
+    display: none;
+  }
+  #info-price p {
+    margin-top: 8%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #Read_more {
+    margin-left: 25%;
+  }
+  .navbar .navbar-collapse {
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #info-services {
+    display: none;
+  }
+  #Read_more {
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  #info-gestalt p {
+    padding: 2% 5%;
+  }
+  #lines {
+    width: 45px;
+    height: 10px;
+  }
+  #home-text {
+    margin-right: 5%;
+    text-align: center;
+  }
+  #info-cennik p {
+    padding: 2% 5%;
+  }
+  ul li {
+    margin-right: 5%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
