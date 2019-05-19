@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-
+Disallow: /http://ewelinamechelewska.pl/img/lines.png
 Sitemap: http://ewelinamechelewska.pl

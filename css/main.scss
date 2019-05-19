@@ -200,7 +200,7 @@ img {
     padding-top: 8%;
 }
 
-#info-gestalt h6,h1 {
+#info-gestalt h6,h1,h2,h3,h4,h5 {
     margin: 4% 9% 0 9%;
     line-height: 30px;
     text-align: justify;
@@ -249,7 +249,8 @@ padding-left: 1%;
 
 @media screen and(max-width:1600px) {
     .gestalt-name {
-        margin-left: 5%;
+        font-size: 24px;
+        padding-top: 2%;
     }
 }
 
