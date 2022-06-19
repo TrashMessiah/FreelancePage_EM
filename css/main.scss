@@ -404,3 +404,88 @@ padding-left: 1%;
 @media screen and (max-width: 410px) {
    
 }
+
+
+.bookero-sticky-plugin-toggle {
+    display: none;
+background-color: #d4acd4!important;
+color:  rgba(0,0,0,.5)!important;
+}
+
+.bookero-plugin-header {
+    background-color: #d4acd4!important;
+    color:  rgba(0,0,0,.5)!important;
+}
+
+#bookero-plugin-service:focus{
+border-color: #d4acd4!important;
+}
+
+#bookero-plugin-people-number:focus {
+    border-color: #d4acd4!important;
+}
+
+.calendar-days-list-cell {
+    background-color: rgba(212,172,212,.3)!important;
+    color: rgba(0,0,0,.3)!important;
+}
+
+.calendar-days-list-cell.is-selected {
+    border-color: #d4acd4!important;
+}
+
+.calendar-days-list-cell.is-valid {
+    background-color: rgba(212,172,212,.8)!important;
+    color: rgba(0,0,0,.5)!important;
+}
+
+
+.hours-list-item {
+    background-color: rgba(212,172,212,.8)!important;
+    color: rgba(0,0,0,.5)!important;
+}
+
+.hours-list-item.is-selected {
+    border-color: #d4acd4!important;
+}
+
+.submit-button {
+    background-color: rgba(212,172,212,.8)!important;
+    color: rgba(0,0,0,.5)!important;
+}
+
+.submit-button::after {
+    border: 2px solid #d4acd4!important;
+    border-left: none!important;
+    border-bottom: none!important;
+}
+
+.submit-button:hover {
+    background-color: #d4acd4!important;
+}
+.submit-button:hover::after {
+    border: 2px solid #aa91ac!important;
+    border-left: none!important;
+    border-bottom: none!important;
+
+}
+
+.inquiry-actions-details {
+    color: #574a5b!important;
+}
+.inquiry-actions-details:after {
+    border-top: 2px solid #574a5b!important;
+    border-right: 2px solid #574a5b!important;
+}
+
+.bookero-plugin-form .field input:focus {
+    border-color: #d4acd4!important;
+}
+
+.back-button {
+    color: #574a5b!important;
+}
+
+.result-popup-icon  {
+    background: #aa91ac!important;
+}
