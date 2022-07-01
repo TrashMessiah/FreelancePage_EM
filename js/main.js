@@ -26,5 +26,7 @@ setTimeout(() => {
   let bookero = document.getElementsByClassName("bookero-sticky-plugin-toggle");
   bookero[1].innerHTML = "Zamów wizytę";
   bookero[1].style.display = "block";
+  bookero[0].classList.add('close-button');
+  bookero[1].classList.add('nav-button')
   bookero[0].style.display = "block";
 }, "1000");

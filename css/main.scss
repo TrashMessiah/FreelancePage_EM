@@ -1,87 +1,87 @@
-$font-family: 'Lato';
+$font-family: "Lato";
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 @import "../css/colors.scss";
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: $font-family;
-    a {
-        text-decoration: none;
-    }
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  a {
+    text-decoration: none;
+  }
 }
 
 #Home,
 #Cennik,
 #Offer {
-    background: $primary-color-background;
+  background: $primary-color-background;
 }
 
 #Gestalt,
 #AboutMe {
-    background: $secondary-color-background;
+  background: $secondary-color-background;
 }
 
 #Kontakt {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 ///      NAVBAR       ///
 .navbar-brand {
-    color: $color-text-navbar!important;
+  color: $color-text-navbar !important;
 }
 
 .navbar .navbar-nav {
-    display: inline-flex;
-    float: none;
+  display: inline-flex;
+  float: none;
 }
 
 .navbar-nav {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .navbar {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .navbar .navbar-collapse {
-    text-align: center;
-    height: 100%;
+  text-align: center;
+  height: 100%;
 }
 
 ul {
-    float: right;
-    width: fit-content;
-    list-style: none;
-    li {
-        margin-right: 45px;
-        a {
-            font-size: 20px;
-            font-weight: bold;
-            span {
-                padding-top: 2px;
-            }
-            img {
-                height: 17px;
-            }
-        }
+  float: right;
+  width: fit-content;
+  list-style: none;
+  li {
+    margin-right: 45px;
+    a {
+      font-size: 20px;
+      font-weight: bold;
+      span {
+        padding-top: 2px;
+      }
+      img {
+        height: 17px;
+      }
     }
+  }
 }
 
 // SECTION SERV
 #lines {
-    width: 50px;
-    height: 18px;
-    padding-right: 15px;
+  width: 50px;
+  height: 18px;
+  padding-right: 15px;
 }
 
 ////photos//////
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #photo-homepage,
@@ -89,403 +89,424 @@ img {
 #photo-gestalt,
 #photo-offer,
 #photo-price {
-    padding: 0;
+  padding: 0;
 }
 
 ///////Home section//////
 #info-homepage {
-    margin-top: 13%;
-    width: 100%;
-    
+  margin-top: 13%;
+  width: 100%;
 }
 
 #home-name {
-    color: $primary-color-fonts;
-    margin-top: 40%;
-    margin-left: 20%;
-    text-align: left;
-    font-size: 5vw;
-    line-height: 125px;
+  color: $primary-color-fonts;
+  margin-top: 40%;
+  margin-left: 20%;
+  text-align: left;
+  font-size: 5vw;
+  line-height: 125px;
 }
 
 #home-des {
-    color: $secondary-color-fonts;
-    font-size: 1.5vw;
-    margin-left: 20%;
-    text-align: left;
+  color: $secondary-color-fonts;
+  font-size: 1.5vw;
+  margin-left: 20%;
+  text-align: left;
 }
 
 #home-text {
-    font-size: 16px;
-    color: $primary-color-fonts;
-    margin: 10% 20% 20% 20%;
-    text-align: left;
-    line-height: 30px;
-    
+  font-size: 16px;
+  color: $primary-color-fonts;
+  margin: 10% 20% 20% 20%;
+  text-align: left;
+  line-height: 30px;
 }
 
 /////////AboutMe section
 #des-services {
-    margin: 20% 10% 0 10%;
-    line-height: 30px;
-    text-align: justify;
+  margin: 20% 10% 0 10%;
+  line-height: 30px;
+  text-align: justify;
 }
 
 #info-services {
-    margin: 20% 20% 0 20%;
-    font-size: 17px;
-    color: $secondary-color-fonts;
-    span {
-        font-size: 24px;
-        color: $primary-color-fonts;
-    }
-    line-height: 25px;
+  margin: 20% 20% 0 20%;
+  font-size: 17px;
+  color: $secondary-color-fonts;
+  span {
+    font-size: 24px;
+    color: $primary-color-fonts;
+  }
+  line-height: 25px;
 }
 
 #Read_more {
-    margin: 10% 0 20% 10%;
-    background-color: darken($secondary-color-background, 18%);
-    height: 43px;
-    width: 195px;
-    color: $primary-color-fonts;
+  margin: 10% 0 20% 10%;
+  background-color: darken($secondary-color-background, 18%);
+  height: 43px;
+  width: 195px;
+  color: $primary-color-fonts;
 }
 
 #buttons {
-    padding: 10px 0 0 75px;
+  padding: 10px 0 0 75px;
 }
 
 /////kontakt section
 #info-contact {
-    margin-top: 13%;
-    margin-bottom: 10%;
+  margin-top: 13%;
+  margin-bottom: 10%;
 }
 
 #info-text {
-    margin: 0 18% 0 18%;
-    font-size: 35px;
-    color: $primary-color-fonts;
-    line-height: 30px;
+  margin: 0 18% 0 18%;
+  font-size: 35px;
+  color: $primary-color-fonts;
+  line-height: 30px;
 }
 
 #info-adress,
 #info-phone {
-    margin: 5% 18%0 18%;
-    color: $primary-color-fonts;
-    font-size: 20px
+  margin: 5% 18%0 18%;
+  color: $primary-color-fonts;
+  font-size: 20px;
 }
 
 #info-phone {
-    margin-bottom: 20%;
+  margin-bottom: 20%;
 }
 
 #lines1 {
-    width: 70px;
-    height: 18px;
+  width: 70px;
+  height: 18px;
 }
 
 ///////footer
 #main-footer {
-    text-align: center;
-    background-color: $color-footer;
-    color: $primary-color-background;
-    height: 40px;
-    font-size: 14px;
-    padding-top: 10px;
+  text-align: center;
+  background-color: $color-footer;
+  color: $primary-color-background;
+  height: 40px;
+  font-size: 14px;
+  padding-top: 10px;
 }
 
 ///////offer section
 .gestalt-name,
 .price-name {
-    font-size: 22px;
-    padding-top: 8%;
+  font-size: 22px;
+  padding-top: 8%;
 }
 
-#info-gestalt h6,h1,h2,h3,h4,h5 {
-    margin: 4% 9% 0 9%;
-    line-height: 30px;
-    text-align: justify;
-  
+#info-gestalt h6,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 4% 9% 0 9%;
+  line-height: 30px;
+  text-align: justify;
 }
 
 #info-gestalt {
-    margin-top: 45px;
+  margin-top: 45px;
 }
 
 //////gestalt section
 #cennik-name,
 #info1-price {
-    font-size: 22px;
-    margin-top: 24%;
+  font-size: 22px;
+  margin-top: 24%;
 }
-#cennik-name{
-padding-left: 1%;
+#cennik-name {
+  padding-left: 1%;
 }
 #info-cennik h6 {
-    padding: 2% 10%;
-    line-height: 30px;
-    text-align: justify;
-  
+  padding: 2% 10%;
+  line-height: 30px;
+  text-align: justify;
 }
 
 .gestalt-name {
-    font-size: 24px;
-    padding-top: 2%;
+  font-size: 24px;
+  padding-top: 2%;
 }
-#photo-gestalt1{
-  display:none;
-
+#photo-gestalt1 {
+  display: none;
 }
-
 
 //////price section
-#cennik-name{
-    margin-top:13%!important;
-
+#cennik-name {
+  margin-top: 13% !important;
 }
-#info-price h6{
-    margin: 3% 10% 0 10%;
-    line-height: 30px;
+#info-price h6 {
+  margin: 3% 10% 0 10%;
+  line-height: 30px;
 }
 
 @media screen and(max-width:1600px) {
-    .gestalt-name {
-        font-size: 24px;
-        padding-top: 2%;
-    }
+  .gestalt-name {
+    font-size: 24px;
+    padding-top: 2%;
+  }
 }
 
 @media screen and (max-width: 1400px) {
-    .gestalt-name {
-        font-size: 19px;
-    }
-    #info-gestalt p {
-        margin: 0 1% 2% 1%;
-    }
+  .gestalt-name {
+    font-size: 19px;
+  }
+  #info-gestalt p {
+    margin: 0 1% 2% 1%;
+  }
 }
 
 @media screen and (max-width: 1220px) {
-    .gestalt-name {
-        font-size: 19px;
-    }
-    #info-gestalt p {
-        margin: 0 1% 2% 1%;
-        font-size: 15px;
-        margin-bottom: 0;
-    }
+  .gestalt-name {
+    font-size: 19px;
+  }
+  #info-gestalt p {
+    margin: 0 1% 2% 1%;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .navbar {
-        opacity: 1;
+  .navbar {
+    opacity: 1;
+  }
+  .navbar-collapse {
+    padding-left: 20%;
+  }
+  #photo-homepage,
+  #photo-contact,
+  #photo-offer,
+  #photo-gestalt {
+    max-width: 60%;
+    max-height: 60%;
+    img {
+      margin-left: 35%;
+      margin-top: 20%;
     }
-    .navbar-collapse {
-        padding-left: 20%;
-    }
-    #photo-homepage,
-    #photo-contact,
-    #photo-offer,
-    #photo-gestalt {
-        max-width: 60%;
-        max-height: 60%;
-        img {
-            margin-left: 35%;
-            margin-top: 20%;
-        }
-    }
-    #home-text {
-        margin: 10%;
-    }
-    #home-name {
-        margin-top: 6%;
-        font-size: 20px;
-    }
-    #photo-price {
-        display: none;
-    }
-    #photo-offer,
-    #photo-homepage {
-        margin-top: 10%;
-    }
-    #info-text,
-    #contact_me {
-        margin: 2% 5% 0 5%;
-    }
-    #info-adress,
-    #info-phone {
-        margin: 2% 5% 5% 5%;
-        text-align: center;
-    }
-    #home-des {
-        font-size: 3vw;
-    }
-    #info-services {
-        font-size: 13px;
-        margin: 10% 10% 0 10%;
-    }
-    #des-services {
-        font-size: 13px;
-        line-height: 25px;
-        margin-top: 20%;
-    }
-    #info-phone,
-    #info-adress,
-    #info-text {
-        text-align: center;
-        font-size: 16px;
-    }
-    #info-price p,
-    ul {
-        margin: 20% 5% 5% 5%;
-        line-height: 30px;
+  }
+  #home-text {
+    margin: 10%;
+  }
+  #home-name {
+    margin-top: 6%;
+    font-size: 20px;
+  }
+  #photo-price {
+    display: none;
+  }
+  #photo-offer,
+  #photo-homepage {
+    margin-top: 10%;
+  }
+  #info-text,
+  #contact_me {
+    margin: 2% 5% 0 5%;
+  }
+  #info-adress,
+  #info-phone {
+    margin: 2% 5% 5% 5%;
+    text-align: center;
+  }
+  #home-des {
+    font-size: 3vw;
+  }
+  #info-services {
+    font-size: 13px;
+    margin: 10% 10% 0 10%;
+  }
+  #des-services {
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 20%;
+  }
+  #info-phone,
+  #info-adress,
+  #info-text {
+    text-align: center;
+    font-size: 16px;
+  }
+  #info-price p,
+  ul {
+    margin: 20% 5% 5% 5%;
+    line-height: 30px;
+  }
+  #Read_more {
+    margin-left: 35%;
+  }
 
+  #info-services {
+    display: none;
+  }
+  #cennik-name {
+    font-size: 20px;
+  }
+  #photo-gestalt1 {
+    display: block;
+    img {
+      padding: 10% 5% 0 5%;
     }
-    #Read_more {
-        margin-left: 35%;
-    }
-
-    #info-services {
-        display: none;
-    }
-    #cennik-name {
-        font-size: 20px;
-    }
-    #photo-gestalt1{
-        display:block;
-         img{
-             padding: 10% 5% 0 5%;
-         }
-    }
-    #photo-gestalt{
-        display: none;
-    }
-    #info-price p{
-        margin-top:8%;
-    }
+  }
+  #photo-gestalt {
+    display: none;
+  }
+  #info-price p {
+    margin-top: 8%;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    #Read_more {
-        margin-left: 25%;
-    }
-    .navbar .navbar-collapse{
+  #Read_more {
+    margin-left: 25%;
+  }
+  .navbar .navbar-collapse {
     padding-left: 10%;
-    }
-  
+  }
 }
 
 @media screen and (max-width: 410px) {
-    #info-services {
-        display: none;
-    }
-    #Read_more {
-        margin-left: 20%;
-        margin-top: 10%;
-    }
-    #info-gestalt p {
-        padding: 2% 5%;
-    }
-    #lines {
-        width: 45px;
-        height: 10px;
-    } 
-    #home-text{
-        margin-right: 5%; 
-        text-align: center;
-    } 
-    #info-cennik p{
-        padding: 2% 5%;
-    } 
-    ul li{
-        margin-right: 5%;
-    }
- 
-  
-}
-@media screen and (max-width: 410px) {
-   
+  #info-services {
+    display: none;
+  }
+  #Read_more {
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  #info-gestalt p {
+    padding: 2% 5%;
+  }
+  #lines {
+    width: 45px;
+    height: 10px;
+  }
+  #home-text {
+    margin-right: 5%;
+    text-align: center;
+  }
+  #info-cennik p {
+    padding: 2% 5%;
+  }
+  ul li {
+    margin-right: 5%;
+  }
 }
 
+
+.bookero{
+    @media screen and (max-width: 610px) {
+        display: none!important;
+    }
+}
+#bookero-plugin {
+    @media screen and (max-width: 610px) {
+       width: 100%!important;
+    }
+}
+
+
+.bookero-sticky-plugin-toggle.close-button {
+  opacity: 1;
+  bottom: 0 !important;
+}
+
+.bookero-sticky-plugin-toggle.nav-button {
+  @media screen and (min-width: 610px) {
+    top: 6px !important;
+    padding-right: 61px;
+    padding-top: 1px;
+    opacity: 0;
+    
+  }
+  
+  @media screen and (max-width: 610px) {
+    width: 100%!important;
+ }
+}
 
 .bookero-sticky-plugin-toggle {
-    display: none;
-background-color: #d4acd4!important;
-color:  rgba(0,0,0,.5)!important;
+  display: none;
+  background-color: #b39cb4 !important;
+  color: #00000080 !important;
+  font-size: 20px !important;
 }
 
 .bookero-plugin-header {
-    background-color: #d4acd4!important;
-    color:  rgba(0,0,0,.5)!important;
+  background-color: #d4acd4 !important;
+  color: #00000080 !important;
 }
 
-#bookero-plugin-service:focus{
-border-color: #d4acd4!important;
+#bookero-plugin-service:focus {
+  border-color: #d4acd4 !important;
 }
 
 #bookero-plugin-people-number:focus {
-    border-color: #d4acd4!important;
+  border-color: #d4acd4 !important;
 }
 
 .calendar-days-list-cell {
-    background-color: rgba(212,172,212,.3)!important;
-    color: rgba(0,0,0,.3)!important;
+  background-color: rgba(212, 172, 212, 0.3) !important;
+  color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .calendar-days-list-cell.is-selected {
-    border-color: #d4acd4!important;
+  border-color: #d4acd4 !important;
 }
 
 .calendar-days-list-cell.is-valid {
-    background-color: rgba(212,172,212,.8)!important;
-    color: rgba(0,0,0,.5)!important;
+  background-color: rgba(212, 172, 212, 0.8) !important;
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 
-
 .hours-list-item {
-    background-color: rgba(212,172,212,.8)!important;
-    color: rgba(0,0,0,.5)!important;
+  background-color: rgba(212, 172, 212, 0.8) !important;
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .hours-list-item.is-selected {
-    border-color: #d4acd4!important;
+  border-color: #d4acd4 !important;
 }
 
 .submit-button {
-    background-color: rgba(212,172,212,.8)!important;
-    color: rgba(0,0,0,.5)!important;
+  background-color: rgba(212, 172, 212, 0.8) !important;
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .submit-button::after {
-    border: 2px solid #d4acd4!important;
-    border-left: none!important;
-    border-bottom: none!important;
+  border: 2px solid #d4acd4 !important;
+  border-left: none !important;
+  border-bottom: none !important;
 }
 
 .submit-button:hover {
-    background-color: #d4acd4!important;
+  background-color: #d4acd4 !important;
 }
 .submit-button:hover::after {
-    border: 2px solid #aa91ac!important;
-    border-left: none!important;
-    border-bottom: none!important;
-
+  border: 2px solid #aa91ac !important;
+  border-left: none !important;
+  border-bottom: none !important;
 }
 
 .inquiry-actions-details {
-    color: #574a5b!important;
+  color: #574a5b !important;
 }
 .inquiry-actions-details:after {
-    border-top: 2px solid #574a5b!important;
-    border-right: 2px solid #574a5b!important;
+  border-top: 2px solid #574a5b !important;
+  border-right: 2px solid #574a5b !important;
 }
 
 .bookero-plugin-form .field input:focus {
-    border-color: #d4acd4!important;
+  border-color: #d4acd4 !important;
 }
 
 .back-button {
-    color: #574a5b!important;
+  color: #574a5b !important;
 }
 
-.result-popup-icon  {
-    background: #aa91ac!important;
+.result-popup-icon {
+  background: #aa91ac !important;
 }
